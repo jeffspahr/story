@@ -319,6 +319,17 @@ class: blue
 ---
 ---
 
+# Dark mode
+
+<img class="modernization-image" src="/evidence/ui-pipelines-dark-preview.png" alt="Redesigned Kubeflow Pipelines list in dark mode" />
+
+<p class="source">Preview · <a href="https://github.com/kubeflow/pipelines/pull/14584" target="_blank" rel="noopener noreferrer">PR #14584</a> · sample data</p>
+
+<!-- Captured from the mock-backed review preview on November 4; preview source revision b710d6d9d. -->
+
+---
+---
+
 # Run details
 
 <img class="modernization-image" src="/evidence/ui-run-details-preview.png" alt="Redesigned run graph with task logs in the Kubeflow Pipelines preview" />
@@ -338,6 +349,24 @@ class: blue
 <p class="source">Kubeflow modernization blog · additional credits to verify</p>
 
 <!-- Include the colleague who was already a maintainer and the internal UI reviewer if Jeff wants to identify them. This list is a baseline, not an exhaustive list of everyone who contributed. -->
+
+---
+---
+
+# Thank you
+
+<p class="lead">For the /lgtm and /approve on my PRs:</p>
+
+<div class="three" style="margin-top:22px; line-height:1.8; font-size:18px">
+  <div><a href="https://github.com/droctothorpe" target="_blank" rel="noopener noreferrer">@droctothorpe</a><br><a href="https://github.com/zazulam" target="_blank" rel="noopener noreferrer">@zazulam</a><br><a href="https://github.com/manaswinidas" target="_blank" rel="noopener noreferrer">@manaswinidas</a><br><a href="https://github.com/juliusvonkohout" target="_blank" rel="noopener noreferrer">@juliusvonkohout</a></div>
+  <div><a href="https://github.com/hbelmiro" target="_blank" rel="noopener noreferrer">@hbelmiro</a><br><a href="https://github.com/mprahl" target="_blank" rel="noopener noreferrer">@mprahl</a><br><a href="https://github.com/jsonmp-k8" target="_blank" rel="noopener noreferrer">@jsonmp-k8</a><br><a href="https://github.com/Priyanshu-u07" target="_blank" rel="noopener noreferrer">@Priyanshu-u07</a></div>
+  <div><a href="https://github.com/sathish-thangaraj" target="_blank" rel="noopener noreferrer">@sathish-thangaraj</a><br><a href="https://github.com/HumairAK" target="_blank" rel="noopener noreferrer">@HumairAK</a><br><a href="https://github.com/srtanish1992" target="_blank" rel="noopener noreferrer">@srtanish1992</a><br><a href="https://github.com/dpanshug" target="_blank" rel="noopener noreferrer">@dpanshug</a></div>
+</div>
+
+<p class="small muted" style="margin-top:20px">And everyone who reviewed, commented, and helped.</p>
+<p class="source"><a href="https://github.com/kubeflow/pipelines/pulls?q=is%3Apr+author%3Ajeffspahr" target="_blank" rel="noopener noreferrer">Pipelines PRs</a> · checked November 4, 2026</p>
+
+<!-- Handles found in standalone /lgtm or /approve commands in PR conversation comments and submitted review bodies across 468 authored Pipelines PRs, checked November 4. Inline review-thread comments were not scanned; this is not an exhaustive list of reviewers. -->
 
 ---
 class: blue
