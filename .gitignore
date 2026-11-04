@@ -1,0 +1,6 @@
+# Only publish the presentation and its deployment configuration.
+/*
+!/.gitignore
+!/README.md
+!/deck/
+!/.github/
