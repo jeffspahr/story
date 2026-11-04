@@ -38,8 +38,7 @@
 .heat-head,.heat-row { display:grid; grid-template-columns:145px repeat(10,1fr); gap:5px; align-items:center; margin-bottom:5px; }
 .heat-head span { text-align:center; font-size:12px; font-weight:700; color:#58718b; }
 .heat-row b { font-size:16px; }.heat-row span { display:grid; place-items:center; height:36px; font-size:13px; font-weight:700; border-radius:2px; }
-.reveal { border:3px dashed #9bb4d0; padding:30px; margin-top:20px; background:#f5f8fc; }
-.reveal b { color:var(--navy); font-size:25px; }.reveal p { font-size:17px; margin:8px 0 0; }
+.modernization-image { display:block; max-width:100%; height:365px; width:auto; margin:0 auto; border:1px solid #c7d7e7; }
 .credits { display:grid;grid-template-columns:1fr 1fr;gap:12px 35px; font-size:22px; line-height:1.4; }
 .cover .hero { padding-top:54px; max-width:790px; }
 .cover h1 { font-size:47px; line-height:1.04; margin-bottom:12px; }
@@ -89,6 +88,29 @@
   color: #405a76;
   font-size: 14px;
   line-height: 1.3;
+}
+
+.regression-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.regression-comparison b {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--navy);
+  font-size: 18px;
+}
+.regression-comparison svg {
+  display: block;
+  width: 100%;
+  max-height: 248px;
+  border: 1px solid #c7d7e7;
+}
+.regression-comparison ellipse {
+  fill: none;
+  stroke: #df1d25;
+  stroke-width: 9;
 }
 
 .pr-screenshot-link {

@@ -104,11 +104,11 @@ class: blue
 ---
 ---
 
-# I already knew a maintainer
+# This is really hard to do alone
 
-<p class="lead">We were already colleagues. That made it easier to get started.</p>
+<p class="lead">There's the old “pull yourself up by your bootstraps” fallacy. It helps a lot to know someone.</p>
 
-<p class="small muted">The bootstrap story leaves out the people who help us along the way.</p>
+<p class="lead">That someone for me was a colleague who was an existing Kubeflow maintainer.</p>
 
 <!-- This relationship mattered. I was already colleagues with one of the maintainers. I don't want to tell a bootstrap story that leaves out the connection and support that helped me get started. Let Jeff identify the person and details in his own words. -->
 
@@ -150,8 +150,6 @@ class: blue
 
 <p class="lead">His thumbs-up gave me and the maintainers confidence to start merging.</p>
 
-<p class="small muted">He was an internal colleague who knew frontend.</p>
-
 <!-- I pulled in an internal UI developer to review some changes. His approval made me and the maintainers confident enough to start merging. Speaker to add the colleague's name and specific example if he wants to credit him publicly. -->
 
 ---
@@ -188,6 +186,33 @@ class: blue
 <p class="source">PR <a href="https://github.com/kubeflow/pipelines/pull/12754" target="_blank" rel="noopener noreferrer">#12754</a> · visual comparison comment</p>
 
 <!-- This is the actual Recurring Runs comparison posted in PR 12754. The base is on the left, the PR on the right. Comparisons help us inspect changes; they do not prove the absence of regressions. -->
+
+---
+---
+
+# Sometimes the UI did change
+
+<div class="regression-comparison">
+  <div>
+    <b>Before</b>
+    <svg viewBox="480 125 500 300" role="img" aria-label="The original chart tooltip has light, readable text on a dark background.">
+      <image href="/evidence/roc-before.png" width="1830" height="1318" />
+      <ellipse cx="740" cy="244" rx="165" ry="82" />
+    </svg>
+  </div>
+  <div>
+    <b>After</b>
+    <svg viewBox="950 285 520 300" role="img" aria-label="The changed chart tooltip has dark text that is difficult to read on a dark background.">
+      <image href="/evidence/roc-regression.png" width="2060" height="1252" />
+      <ellipse cx="1232" cy="448" rx="185" ry="87" />
+    </svg>
+  </div>
+</div>
+
+<p class="small">The tooltip text became difficult to read.</p>
+<p class="source">Reviewer screenshots · PR <a href="https://github.com/kubeflow/pipelines/pull/12829#issuecomment-3918215968" target="_blank" rel="noopener noreferrer">#12829</a></p>
+
+<!-- Anish Surti found this tooltip contrast regression during manual review of the Recharts migration. These are his screenshots; the red circles were added for this slide. The two tooltips show different values, so point out the text contrast rather than comparing the numbers. Do not claim the automated comparison discovered this specific issue. -->
 
 ---
 ---
@@ -272,13 +297,35 @@ class: blue
 ---
 ---
 
+# Before
+
+<img class="modernization-image" src="/evidence/ui-pipelines-before.png" alt="Legacy Kubeflow Pipelines list" />
+
+<p class="source">Pipelines list · <a href="https://github.com/jeffspahr/jeffspahr-pipelines/releases/tag/ui-modernization-comparison-20261021" target="_blank" rel="noopener noreferrer">Comparison recording</a> · sample data</p>
+
+<!-- Legacy application build cd3ed541, from the October 21 comparison recording. The next slide shows the same view and sample data in the modernization build. -->
+
+---
+---
+
 # This project deserves a modern UI
 
-<div class="reveal"><b>UI modernization reveal</b><p>Before-and-after screenshots go here.</p></div>
+<img class="modernization-image" src="/evidence/ui-pipelines-preview.png" alt="Redesigned Kubeflow Pipelines list" />
 
+<p class="source">Preview · <a href="https://github.com/kubeflow/pipelines/pull/14584" target="_blank" rel="noopener noreferrer">PR #14584</a> · sample data</p>
 
+<!-- Modernization build ba521c410, from the October 21 comparison recording. PR #14584 was open as of November 4; check status before presenting. -->
 
-<!-- Before presenting, check the redesign PR, verify merge status, credit contributors, and capture real before-and-after screenshots. Label it a preview if unmerged. -->
+---
+---
+
+# Run details
+
+<img class="modernization-image" src="/evidence/ui-run-details-preview.png" alt="Redesigned run graph with task logs in the Kubeflow Pipelines preview" />
+
+<p class="source">Preview · <a href="https://github.com/kubeflow/pipelines/pull/14584" target="_blank" rel="noopener noreferrer">PR #14584</a> · sample data</p>
+
+<!-- The run-details image is from the mock-backed review preview, captured October 22; it is not a production deployment. Check PR status before presenting. -->
 
 ---
 ---
