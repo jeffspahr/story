@@ -65,6 +65,10 @@
   line-height: 1.35 !important;
   opacity: 1;
 }
+.intro-content { display:flex; align-items:flex-start; gap:24px; }
+.intro-headshot { width:168px; height:168px; object-fit:cover; border-radius:4px; flex:none; }
+.slidev-layout.blue .intro-content p { margin:0 0 16px; }
+.slidev-layout.blue .intro-background { font-size:16px; line-height:1.35; }
 
 /* Slidev dims paragraphs directly after headings; restore readable body contrast. */
 .slidev-layout .lead { opacity: 1; }

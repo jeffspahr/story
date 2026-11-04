@@ -17,9 +17,16 @@ class: blue
 
 # Jeff Spahr
 
-<p class="lead">People leader<br>Infrastructure and SRE<br>Not a frontend developer</p>
+<div class="intro-content">
+  <img class="intro-headshot" src="/speaker/jeff-spahr.jpg" alt="Jeff Spahr" />
+  <div>
+    <p class="lead">Director, Software Engineering<br>Capital One</p>
+    <p class="lead">Maintainer<br>Kubeflow Pipelines</p>
+    <p class="intro-background">Infrastructure and SRE<br>Not a frontend developer</p>
+  </div>
+</div>
 
-<!-- Introduce myself: I'm a people leader with an infrastructure and SRE background. I'm accountable for an internal platform; frontend development wasn't my specialty. -->
+<!-- Headshot and work title from my SREcon 2026 presenter slide. I'm a people leader with an infrastructure and SRE background; frontend development wasn't my specialty. -->
 
 ---
 class: blue
