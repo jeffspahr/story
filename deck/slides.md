@@ -22,7 +22,7 @@ class: blue
   <div>
     <p class="lead">Director, Software Engineering<br>Capital One</p>
     <p class="lead">Maintainer<br>Kubeflow Pipelines</p>
-    <p class="intro-background">Infrastructure and SRE<br>Not a frontend developer</p>
+    <p class="intro-background">Infrastructure and SRE background<br>Not a frontend developer</p>
   </div>
 </div>
 
