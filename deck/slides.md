@@ -251,6 +251,12 @@ class: comic-slide
 
 <MilestoneTimeline :step="3" />
 
+<div class="card" style="position:absolute;top:110px;right:65px;width:380px;min-height:0;padding:18px 22px">
+  <b>Build + tests</b>
+  <p class="small">Create React App → Vite<br>Jest / Enzyme → Vitest / Testing Library</p>
+  <a href="https://github.com/kubeflow/pipelines/pull/12754" target="_blank" rel="noopener noreferrer">#12754</a>
+</div>
+
 ---
 ---
 
