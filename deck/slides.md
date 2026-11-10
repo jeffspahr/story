@@ -71,7 +71,7 @@ class: blue
 ---
 ---
 
-# My first PR
+# My first Kubeflow Pipelines PR
 
 <MilestoneTimeline :step="1" />
 
