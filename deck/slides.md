@@ -36,7 +36,7 @@ class: blue
 
 <p class="lead">I'm accountable for an internal platform and keeping it well managed.</p>
 
-<p class="lead">I needed to eliminate vulnerabilities in the frontend and its server.</p>
+<p class="lead">I needed to eliminate vulnerabilities in the Kubeflow Pipelines frontend.</p>
 
 <!-- I saw vulnerabilities in the frontend and frontend server that weren't getting patched. I didn't understand what was preventing the updates, so I started digging. -->
 
