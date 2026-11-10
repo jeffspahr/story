@@ -35,7 +35,7 @@
 .dependency-chain .step { font-size: 18px; padding: 18px 16px; }
 .dependency-chain .step span { font-size: 14px; line-height: 1.5; font-weight: 400; }
 .heatmap { margin-top:22px; }
-.heat-head,.heat-row { display:grid; grid-template-columns:145px repeat(10,1fr); gap:5px; align-items:center; margin-bottom:5px; }
+.heat-head,.heat-row { display:grid; grid-template-columns:145px repeat(var(--month-count),1fr); gap:5px; align-items:center; margin-bottom:5px; }
 .heat-head span { text-align:center; font-size:12px; font-weight:700; color:#58718b; }
 .heat-row b { font-size:16px; }.heat-row span { display:grid; place-items:center; height:36px; font-size:13px; font-weight:700; border-radius:2px; }
 .modernization-image { display:block; max-width:100%; height:365px; width:auto; margin:0 auto; border:1px solid #c7d7e7; }

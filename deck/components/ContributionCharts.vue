@@ -2,7 +2,8 @@
 import { computed } from 'vue'
 import data from './chart-data.json'
 const props = defineProps({ mode: { type: String, default: 'annual' } })
-const months = ['01','02','03','04','05','06','07','08','09','10']
+const months = ['01','02','03','04','05','06','07','08','09','10','11']
+const monthLabels = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov']
 const series = [
   { key: 'commits', label: 'Commits authored', color: '#1a5190' },
   { key: 'opened', label: 'PRs opened', color: '#168477' },
@@ -31,8 +32,8 @@ function color(n) { return n === 0 ? '#e9edf4' : n < 3 ? '#a8c6e9' : n < 10 ? '#
     <text v-for="(row,i) in chartRows" :key="row.label" :x="x(i)" y="267" text-anchor="middle" class="panel-period">{{ row.label }}</text>
   </svg>
 </div>
-<div v-else class="heatmap">
-  <div class="heat-head"><span></span><span v-for="m in months" :key="m">{{ m }}</span></div>
+<div v-else class="heatmap" :style="{ '--month-count': months.length }">
+  <div class="heat-head"><span></span><span v-for="(m, i) in months" :key="m">{{ monthLabels[i] }}</span></div>
   <div v-for="area in areas" :key="area[1]" class="heat-row"><b>{{ area[0] }}</b><span v-for="m in months" :key="m" :style="{background: color(count(area[1],m)), color: count(area[1],m) >= 10 ? 'white' : '#153762'}">{{ count(area[1],m) || '·' }}</span></div>
 </div>
 </template>

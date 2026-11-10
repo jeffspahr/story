@@ -53,26 +53,8 @@
     {
       "month": "2026-01",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 1
-    },
-    {
-      "month": "2026-01",
-      "role": "authored_prs",
       "category": "frontend",
       "count": 3
-    },
-    {
-      "month": "2026-01",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 1
-    },
-    {
-      "month": "2026-01",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 1
     },
     {
       "month": "2026-02",
@@ -83,20 +65,8 @@
     {
       "month": "2026-02",
       "role": "authored_prs",
-      "category": "build_tooling",
-      "count": 2
-    },
-    {
-      "month": "2026-02",
-      "role": "authored_prs",
       "category": "ci",
       "count": 5
-    },
-    {
-      "month": "2026-02",
-      "role": "authored_prs",
-      "category": "documentation",
-      "count": 12
     },
     {
       "month": "2026-02",
@@ -105,24 +75,6 @@
       "count": 21
     },
     {
-      "month": "2026-02",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 3
-    },
-    {
-      "month": "2026-02",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 5
-    },
-    {
-      "month": "2026-02",
-      "role": "authored_prs",
-      "category": "other",
-      "count": 2
-    },
-    {
       "month": "2026-03",
       "role": "authored_prs",
       "category": "ci",
@@ -131,20 +83,8 @@
     {
       "month": "2026-03",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 17
-    },
-    {
-      "month": "2026-03",
-      "role": "authored_prs",
       "category": "frontend",
       "count": 22
-    },
-    {
-      "month": "2026-03",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 3
     },
     {
       "month": "2026-03",
@@ -167,38 +107,14 @@
     {
       "month": "2026-04",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 4
-    },
-    {
-      "month": "2026-04",
-      "role": "authored_prs",
       "category": "frontend",
       "count": 11
-    },
-    {
-      "month": "2026-04",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 2
-    },
-    {
-      "month": "2026-04",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 1
     },
     {
       "month": "2026-05",
       "role": "authored_prs",
       "category": "backend_api",
       "count": 2
-    },
-    {
-      "month": "2026-05",
-      "role": "authored_prs",
-      "category": "build_tooling",
-      "count": 1
     },
     {
       "month": "2026-05",
@@ -215,26 +131,8 @@
     {
       "month": "2026-05",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 4
-    },
-    {
-      "month": "2026-05",
-      "role": "authored_prs",
       "category": "frontend",
       "count": 17
-    },
-    {
-      "month": "2026-05",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 2
-    },
-    {
-      "month": "2026-05",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 2
     },
     {
       "month": "2026-06",
@@ -251,25 +149,7 @@
     {
       "month": "2026-06",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 3
-    },
-    {
-      "month": "2026-06",
-      "role": "authored_prs",
       "category": "frontend",
-      "count": 2
-    },
-    {
-      "month": "2026-06",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 2
-    },
-    {
-      "month": "2026-06",
-      "role": "authored_prs",
-      "category": "integration_testing",
       "count": 2
     },
     {
@@ -277,12 +157,6 @@
       "role": "authored_prs",
       "category": "backend_api",
       "count": 24
-    },
-    {
-      "month": "2026-07",
-      "role": "authored_prs",
-      "category": "build_tooling",
-      "count": 5
     },
     {
       "month": "2026-07",
@@ -299,38 +173,8 @@
     {
       "month": "2026-07",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 26
-    },
-    {
-      "month": "2026-07",
-      "role": "authored_prs",
       "category": "frontend",
       "count": 7
-    },
-    {
-      "month": "2026-07",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 27
-    },
-    {
-      "month": "2026-07",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 12
-    },
-    {
-      "month": "2026-07",
-      "role": "authored_prs",
-      "category": "other",
-      "count": 2
-    },
-    {
-      "month": "2026-07",
-      "role": "authored_prs",
-      "category": "samples_components",
-      "count": 1
     },
     {
       "month": "2026-07",
@@ -342,12 +186,6 @@
       "month": "2026-08",
       "role": "authored_prs",
       "category": "backend_api",
-      "count": 5
-    },
-    {
-      "month": "2026-08",
-      "role": "authored_prs",
-      "category": "build_tooling",
       "count": 5
     },
     {
@@ -365,38 +203,8 @@
     {
       "month": "2026-08",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 14
-    },
-    {
-      "month": "2026-08",
-      "role": "authored_prs",
       "category": "frontend",
       "count": 9
-    },
-    {
-      "month": "2026-08",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 15
-    },
-    {
-      "month": "2026-08",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 4
-    },
-    {
-      "month": "2026-08",
-      "role": "authored_prs",
-      "category": "other",
-      "count": 3
-    },
-    {
-      "month": "2026-08",
-      "role": "authored_prs",
-      "category": "samples_components",
-      "count": 1
     },
     {
       "month": "2026-08",
@@ -409,12 +217,6 @@
       "role": "authored_prs",
       "category": "backend_api",
       "count": 27
-    },
-    {
-      "month": "2026-09",
-      "role": "authored_prs",
-      "category": "build_tooling",
-      "count": 6
     },
     {
       "month": "2026-09",
@@ -431,38 +233,8 @@
     {
       "month": "2026-09",
       "role": "authored_prs",
-      "category": "documentation",
-      "count": 54
-    },
-    {
-      "month": "2026-09",
-      "role": "authored_prs",
       "category": "frontend",
       "count": 19
-    },
-    {
-      "month": "2026-09",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 32
-    },
-    {
-      "month": "2026-09",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 14
-    },
-    {
-      "month": "2026-09",
-      "role": "authored_prs",
-      "category": "other",
-      "count": 5
-    },
-    {
-      "month": "2026-09",
-      "role": "authored_prs",
-      "category": "samples_components",
-      "count": 1
     },
     {
       "month": "2026-09",
@@ -474,67 +246,49 @@
       "month": "2026-10",
       "role": "authored_prs",
       "category": "backend_api",
-      "count": 75
-    },
-    {
-      "month": "2026-10",
-      "role": "authored_prs",
-      "category": "build_tooling",
-      "count": 27
+      "count": 78
     },
     {
       "month": "2026-10",
       "role": "authored_prs",
       "category": "ci",
-      "count": 87
+      "count": 92
     },
     {
       "month": "2026-10",
       "role": "authored_prs",
       "category": "deployment_release",
-      "count": 50
-    },
-    {
-      "month": "2026-10",
-      "role": "authored_prs",
-      "category": "documentation",
-      "count": 139
+      "count": 54
     },
     {
       "month": "2026-10",
       "role": "authored_prs",
       "category": "frontend",
-      "count": 47
-    },
-    {
-      "month": "2026-10",
-      "role": "authored_prs",
-      "category": "governance_maintenance",
-      "count": 94
-    },
-    {
-      "month": "2026-10",
-      "role": "authored_prs",
-      "category": "integration_testing",
-      "count": 25
-    },
-    {
-      "month": "2026-10",
-      "role": "authored_prs",
-      "category": "other",
-      "count": 11
-    },
-    {
-      "month": "2026-10",
-      "role": "authored_prs",
-      "category": "samples_components",
-      "count": 1
+      "count": 50
     },
     {
       "month": "2026-10",
       "role": "authored_prs",
       "category": "sdk",
       "count": 37
+    },
+    {
+      "month": "2026-11",
+      "role": "authored_prs",
+      "category": "backend_api",
+      "count": 3
+    },
+    {
+      "month": "2026-11",
+      "role": "authored_prs",
+      "category": "ci",
+      "count": 3
+    },
+    {
+      "month": "2026-11",
+      "role": "authored_prs",
+      "category": "sdk",
+      "count": 2
     }
   ],
   "monthlyActivity": [
@@ -598,5 +352,10 @@
       "opened": 209,
       "reviewed": 80
     }
-  ]
+  ],
+  "heatmapMetadata": {
+    "cutoff": "2026-11-09",
+    "authoredPrs": 469,
+    "scope": "Public kubeflow/pipelines PRs authored by jeffspahr, all states, grouped by UTC opening month. Path categories overlap."
+  }
 }

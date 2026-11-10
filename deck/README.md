@@ -44,3 +44,9 @@ node --test deck/components/timeline-clusters.test.mjs
 ### Footer artwork
 
 White slides use the intact [official CNCF North America 2026 color SVG](https://github.com/cncf/artwork/blob/main/other/kubecon-cloudnativecon/2026-na/color/kccnc-na-2026-color.svg), stored unchanged as `public/brand/footer-logo.svg`. The PowerPoint template's embedded raster logo clips the bottom lettering; shifting that image cannot restore it. The SVG preserves its own whitespace plus a 14px bottom inset. CNCF artwork remains subject to its [trademark license](https://github.com/cncf/artwork/blob/main/LICENSE.md).
+
+## Work-area heatmap
+
+The heatmap uses 469 public PRs authored by `jeffspahr` in `kubeflow/pipelines`, opened January 1-November 9, 2026 (UTC), including open and closed PRs. October is complete; November is partial. Each PR counts once per matching changed-path category. Categories overlap and are not effort measures. Annual and monthly activity charts have separate snapshots.
+
+`node deck/scripts/build-heatmap.mjs PR_JSON 2026-11-09` refreshes only the heatmap data. Input is a JSON array with `number`, `createdAt`, `changedFiles`, and complete `files: [{path}]` inventories. Fetch all states with `gh pr list`; paginate `/pulls/{number}/files` for PRs exceeding 100 files. The script rejects duplicates, out-of-range dates, and incomplete inventories.

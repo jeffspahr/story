@@ -312,10 +312,10 @@ class: blue
 
 <ContributionCharts mode="heatmap" />
 
-<p class="tiny muted">Authored PRs by month opened in 2026; file-path categories overlap and are not effort. October is partial.</p>
-<p class="source">GitHub contribution data collected Oct 31, 2026</p>
+<p class="tiny muted">Authored PRs by month opened in 2026. November through Nov 9.</p>
+<p class="source">Public authored PRs in kubeflow/pipelines · Through Nov 9, 2026 (UTC)</p>
 
-<!-- Categories derive from changed paths and overlap. The graph shows the widening scope of authored PRs, not how much time or effort each took. October is partial. -->
+<!-- Categories derive from changed paths and overlap. The graph includes authored PRs in all states, counted by opening month, not effort. October is complete; November is partial through November 9 UTC. -->
 
 ---
 ---
