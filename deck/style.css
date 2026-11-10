@@ -30,6 +30,10 @@
 .step { flex:1; padding:20px 18px; background:#eaf1f9; border-top:4px solid #d51a87; font-size:19px; font-weight:700; }
 .step span { display:block; font-size:13px; font-weight:500; margin-top:9px; }
 .arrow { align-self:center; color:#d51a87; font-size:28px; }
+.dependency-chain { margin-top: 24px; }
+.slidev-layout .dependency-context { opacity: 1; }
+.dependency-chain .step { font-size: 18px; padding: 18px 16px; }
+.dependency-chain .step span { font-size: 14px; line-height: 1.5; font-weight: 400; }
 .heatmap { margin-top:22px; }
 .heat-head,.heat-row { display:grid; grid-template-columns:145px repeat(10,1fr); gap:5px; align-items:center; margin-bottom:5px; }
 .heat-head span { text-align:center; font-size:12px; font-weight:700; color:#58718b; }

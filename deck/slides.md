@@ -87,24 +87,30 @@ class: blue
 ---
 ---
 
-# Why wasn't Dependabot fixing it?
+# These weren't simple dependency bumps
 
-<div class="three"><div class="card"><b>Old frameworks</b><p>Parts of the stack had reached end of life.</p></div><div class="card"><b>Dependencies</b><p>Upgrading one package meant upgrading others.</p></div><div class="card"><b>Code changes</b><p>New versions needed changes to the app and its tests.</p></div></div>
+<p class="small dependency-context">The frontend server still depended on <code>request</code>, deprecated since 2020.</p>
 
-<p class="source">Kubeflow modernization blog · PR <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></p>
+<div class="pathway dependency-chain"><div class="step">Remove vulnerable packages<span><code>request</code>, old <code>tar</code> and <code>qs</code> came through the Kubernetes client.</span></div><div class="arrow">→</div><div class="step">Upgrade that client<span><code>@kubernetes/client-node</code><br>0.16.3 → 1.4.0</span></div><div class="arrow">→</div><div class="step">Change the server<span>CommonJS → ESM<br>Rewrite API calls and response handling<br>Migrate server tests</span></div></div>
 
-<!-- Dependabot was doing its job by proposing updates. The hard part was making those updates work with the application and the rest of the dependency tree. The following slide gives a concrete example. -->
+<p class="small muted">Fixing the dependency tree meant changing the code that used it.</p>
+<p class="source"><a href="https://github.com/request/request#readme" target="_blank" rel="noopener noreferrer">request deprecation</a> · PR <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></p>
+
+<!-- Dependabot was running; the problem was not just configuration. request was fully deprecated on February 11, 2020. PR #12756 removed request, old tar and qs from the Kubernetes client's dependency subtree by moving @kubernetes/client-node 0.16.3 to 1.4.0. The new client required ESM; API calls changed from positional arguments to named objects and returned objects directly instead of body wrappers. The implementation also moved server tests from Jest to Vitest for better ESM support; that runner choice was part of our solution, not the only possible solution. The PR reports six targeted CVEs addressed, not an entirely vulnerability-free application. qs still existed via Express at a newer version. -->
 
 ---
 ---
 
-# Updating the Kubernetes client
+# Even React 16 → 17<br>needed other migrations
 
-<div class="two"><div><p class="lead">The frontend server needed a newer Kubernetes client.</p><p class="small muted">That removed vulnerable packages from its dependency tree.</p></div><div class="card"><b>The upgrade also required</b><p>Moving the server to ESM, changing Kubernetes API calls, and migrating the tests.</p><p class="tiny">PR <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a> · merged February 5</p></div></div>
+<p class="small dependency-context">Create React App was deprecated. Our tests used an Enzyme adapter for React 16.</p>
 
-<p class="source">PR <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a> reports six targeted CVEs addressed</p>
+<div class="pathway dependency-chain"><div class="step">Build + tests<span>Create React App → Vite<br>Jest / Enzyme → Vitest / Testing Library<br><a href="https://github.com/kubeflow/pipelines/pull/12754" target="_blank" rel="noopener noreferrer">#12754</a></span></div><div class="arrow">→</div><div class="step">Charting dependencies<span>Replace react-vis with Recharts<br>Pin its react-redux dependency for React 17<br><a href="https://github.com/kubeflow/pipelines/pull/12829" target="_blank" rel="noopener noreferrer">#12829</a></span></div><div class="arrow">→</div><div class="step">Then React 17<span>Upgrade React and its types<br>Adjust table and graph code<br><a href="https://github.com/kubeflow/pipelines/pull/12849" target="_blank" rel="noopener noreferrer">#12849</a></span></div></div>
 
-<!-- PR 12756 upgraded @kubernetes/client-node from 0.16.3 to 1.4.0, requiring an ESM conversion and changes from positional arguments to named objects. Server tests moved from Jest to Vitest. The PR reports six target CVEs addressed; it did not claim the entire application was vulnerability-free. -->
+<p class="small muted">Even the replacement chart library brought another compatibility problem.</p>
+<p class="source"><a href="https://react.dev/blog/2025/02/14/sunsetting-create-react-app" target="_blank" rel="noopener noreferrer">CRA deprecated February 2025</a> · Merged PRs linked above</p>
+
+<!-- This is the project's actual migration sequence, not a claim that every React app needs these exact replacements. PR #12754 explicitly identifies CRA and legacy test/tooling dependencies as blockers for this project's React upgrade. Its package.json removes enzyme-adapter-react-16 while keeping React at 16. PR #12829 replaced react-vis/react-svg-line-chart with Recharts/inline SVG and pinned Recharts' transitive react-redux to 8.1.3 for React17 compatibility. PR #12849 explicitly stacks on that merged chart migration and changes CustomTable.tsx and SubDagLayer.tsx alongside React and type versions. The checklist also records the Material UI v4 baseline (#12793); this slide is a selected chain, not every prerequisite. CRA was deprecated for new apps in February 2025, with existing apps encouraged to migrate; do not claim that CRA could never run newer React or that React/Jest themselves were EOL. -->
 
 ---
 class: blue
