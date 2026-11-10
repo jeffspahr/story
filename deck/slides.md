@@ -514,6 +514,13 @@ class: blue
 
 # Questions?
 
-<p class="lead" style="margin-top:45px">Jeff Spahr · Kubeflow Pipelines</p>
+<p class="lead" style="margin-top:18px">Jeff Spahr · Kubeflow Pipelines</p>
+
+<div style="display:flex;align-items:center;gap:24px;margin-top:26px">
+  <a href="https://jeffspahr.github.io/story/" target="_blank" rel="noopener noreferrer" aria-label="Open the presentation">
+    <img src="/illustrations/presentation-qr.svg" alt="QR code linking to https://jeffspahr.github.io/story/" style="width:190px;height:190px;background:white" />
+  </a>
+  <div><b>The slides</b><br><a href="https://jeffspahr.github.io/story/" target="_blank" rel="noopener noreferrer" style="font-size:16px;color:white">jeffspahr.github.io/story</a></div>
+</div>
 
 <!-- Close with thanks to the people who helped. Invite questions. -->
