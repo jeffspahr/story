@@ -32,7 +32,7 @@ class: blue
 class: blue
 ---
 
-# What problem was I trying to solve, and why did I care?
+# What problem was I trying to solve? Why did I care?
 
 <p class="lead">I'm accountable for an internal platform and keeping it well managed.</p>
 
