@@ -116,6 +116,16 @@ class: blue
 class: blue
 ---
 
+# Pre-AI, I would have stopped right here.
+
+<div class="bigquote">Nah, I'm good.</div>
+
+<!-- Before AI dev tools, this is where I would have stopped. I wasn't a frontend developer, and this was much more than a dependency bump. -->
+
+---
+class: blue
+---
+
 # Could I make these changes with AI tools?
 
 <p class="lead">I had to be confident enough in my changes.<br><br>I had to convince the maintainers to be confident enough in my changes.</p>
