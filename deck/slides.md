@@ -137,7 +137,9 @@ class: blue
 
 # How would I know the AI-written code was good enough?
 
-<p class="lead">I wasn't a frontend developer. I still had to stand behind the changes.</p>
+<p class="lead">I wasn't a frontend developer.</p>
+
+<p class="lead mt-8"><strong>What if AI does a bad job?</strong></p>
 
 <!-- Human-written code doesn't come with a quality guarantee either. That doesn't lower the bar for AI. It means I needed a way to check. -->
 
