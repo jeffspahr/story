@@ -43,15 +43,6 @@ class: blue
 ---
 ---
 
-# I didn't start from nowhere
-
-<p class="lead">I already worked with a Kubeflow maintainer. That connection helped me get involved.</p>
-
-<!-- This relationship mattered. I had help getting started, and I don't want to tell a bootstrap story that leaves out that connection. This is what happened for me, not a formula that guarantees the same outcome for someone else. Credit later collaborators as their help enters the story. -->
-
----
----
-
 # Why weren't the dependencies getting updated?
 
 <p class="small" style="opacity: 1">Maybe this was a configuration issue?</p>
