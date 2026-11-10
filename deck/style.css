@@ -1,6 +1,6 @@
 :root { --navy:#153e7d; --ink:#112c50; --pink:#d51a87; --pale:#e9f1fb; }
-/* Inset the template footer from the presentation edge; the image above it is white. */
-.slidev-layout { font-family: 'Avenir Next', Avenir, 'Helvetica Neue', sans-serif; color:var(--ink); background: white url('/brand/content.png') center -16px/100% 100% no-repeat; padding: 50px 65px 56px; }
+/* The PowerPoint raster footer clips its lettering; use the intact official SVG. */
+.slidev-layout { font-family: 'Avenir Next', Avenir, 'Helvetica Neue', sans-serif; color:var(--ink); background: white url('/brand/footer-logo.svg') left 33px bottom 14px/120px auto no-repeat; padding: 50px 65px 56px; }
 .slidev-layout h1 { font-size: 39px; line-height:1.12; letter-spacing:-1.3px; font-weight:750; color:var(--navy); margin:0 0 23px; }
 .slidev-layout p, .slidev-layout li { font-size:21px; line-height:1.4; }
 .slidev-layout a { color:#145ea5; border-bottom: 1px solid #8db3d5; }

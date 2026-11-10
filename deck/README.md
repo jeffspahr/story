@@ -40,3 +40,7 @@ gh pr list --repo kubeflow/pipelines --author jeffspahr --state merged \
 node deck/scripts/build-timeline-clusters.mjs /tmp/story-timeline-prs.json
 node --test deck/components/timeline-clusters.test.mjs
 ```
+
+### Footer artwork
+
+White slides use the intact [official CNCF North America 2026 color SVG](https://github.com/cncf/artwork/blob/main/other/kubecon-cloudnativecon/2026-na/color/kccnc-na-2026-color.svg), stored unchanged as `public/brand/footer-logo.svg`. The PowerPoint template's embedded raster logo clips the bottom lettering; shifting that image cannot restore it. The SVG preserves its own whitespace plus a 14px bottom inset. CNCF artwork remains subject to its [trademark license](https://github.com/cncf/artwork/blob/main/LICENSE.md).
