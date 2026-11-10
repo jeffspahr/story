@@ -162,6 +162,17 @@ class: comic-slide
 ---
 ---
 
+# How do we build confidence:
+
+<ol class="space-y-6 mt-10">
+  <li>Get subject matter expert input - I asked a frontend dev colleague.</li>
+  <li>Increase testing coverage around what you want to change before you change it.</li>
+  <li>Build validation tools.</li>
+</ol>
+
+---
+---
+
 # Tests before the upgrade
 
 <div class="pathway"><div class="step">Add test coverage<span>Kubernetes client tests · <a href="https://github.com/kubeflow/pipelines/pull/12635" target="_blank" rel="noopener noreferrer">#12635</a></span></div><div class="arrow">→</div><div class="step">Upgrade the client<span>Server security fixes · <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></span></div></div>
