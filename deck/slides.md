@@ -286,10 +286,10 @@ class: blue
 
 <ContributionCharts />
 
-<p class="tiny muted">GitHub contribution-calendar totals, all projects, 2020–2026. *2026 through Oct 31 only; includes restricted/private activity. Counts combine contribution types and are not a measure of effort.</p>
-<p class="source">GitHub contribution calendar · collected Oct 31, 2026</p>
+<p class="tiny muted">All repositories. *2026 through Oct 31; prior years are full years. Private/restricted activity is aggregated, not broken down by type. These are GitHub contribution counts, not effort or unique pieces of work.</p>
+<p class="source">GitHub contribution calendar and type totals · collected Oct 31, 2026</p>
 
-<!-- This is overall GitHub activity, not just Pipelines. The last bar is a partial year and includes aggregated restricted contributions. Do not attribute the increase solely to AI. -->
+<!-- The six categories reconcile exactly to each annual calendar total for 2020-2026. PR reviews use GitHub contribution definitions, not every review submission. Multiple contribution types can relate to the same PR. Private/restricted contributions are an unclassified aggregate, not an extra count of the visible types. -->
 
 ---
 class: blue
