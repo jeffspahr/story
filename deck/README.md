@@ -54,3 +54,7 @@ The heatmap uses 469 public PRs authored by `jeffspahr` in `kubeflow/pipelines`,
 ## Activity charts
 
 Run `node deck/scripts/refresh-pr-activity.mjs` with GitHub authentication to refresh yearly 2020-2026 and monthly Jan-Nov 2026 totals through November 9 UTC. It requests aggregate commits authored, PRs authored, and PRs reviewed, checks the account, and reconciles monthly commit and authored-PR counts against yearly totals. Private repository details are never requested. Each panel uses its own labeled linear scale. Commits capture earlier direct-to-main work; never add commits and PRs into a combined activity total. Reviews are distinct PRs per queried period, so a PR reviewed in multiple months may appear in each month; do not sum monthly review counts as a distinct annual total. The heatmap data is preserved.
+
+## November 10 UI review captures
+
+Fresh modern-UI images (`public/evidence/*-review.jpg`) were captured from https://kfp-ui-review.spahrj.workers.dev/ on November 10, 2026, using its read-only mock data. The visible preview revision was `897ef843f746bbc7c1a7b61792558c295dd9a423`. Captures include light/dark lists, successful run graphs, nested/parallel/regional DAGs, and timelines. Slides use successful runs without error banners. Extra captures are retained as alternate visuals. The legacy Before screenshot remains historical and is not a pixel-matched comparison with the new sample data. These preview images do not establish that the redesign is merged or deployed in production.

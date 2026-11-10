@@ -378,7 +378,7 @@ class: blue
 
 <p class="source">Pipelines list · <a href="https://github.com/jeffspahr/jeffspahr-pipelines/releases/tag/ui-modernization-comparison-20261021" target="_blank" rel="noopener noreferrer">Comparison recording</a> · sample data</p>
 
-<!-- Legacy application build cd3ed541, from the October 21 comparison recording. The next slide shows the same view and sample data in the modernization build. -->
+<!-- Historical legacy application build cd3ed541, from the October 21 comparison recording. The modern UI captures use the November 10 review app with different sample data; this is not a pixel-matched comparison. -->
 
 ---
 ---
@@ -392,33 +392,77 @@ class: blue
 
 # This project deserves a modern UI
 
-<img class="modernization-image" src="/evidence/ui-pipelines-preview.png" alt="Redesigned Kubeflow Pipelines list" />
+<img class="modernization-image" src="/evidence/ui-pipelines-light-review.jpg" alt="Fresh redesigned Pipelines list with nested, parallel and regional training examples" />
 
 <p class="source">Preview · <a href="https://github.com/kubeflow/pipelines/pull/14584" target="_blank" rel="noopener noreferrer">PR #14584</a> · sample data</p>
 
-<!-- Modernization build ba521c410, from the October 21 comparison recording. PR #14584 was open as of November 4; check status before presenting. -->
+<!-- Captured November 10, 2026 from https://kfp-ui-review.spahrj.workers.dev/#/pipelines. Read-only mock-data preview, revision 897ef843f746bbc7c1a7b61792558c295dd9a423. -->
 
 ---
 ---
 
 # Dark mode
 
-<img class="modernization-image" src="/evidence/ui-pipelines-dark-preview.png" alt="Redesigned Kubeflow Pipelines list in dark mode" />
+<img class="modernization-image" src="/evidence/ui-run-dark-review.jpg" alt="Successful taxi-training run graph with tasks and artifacts in dark mode" />
 
 <p class="source">Preview · <a href="https://github.com/kubeflow/pipelines/pull/14584" target="_blank" rel="noopener noreferrer">PR #14584</a> · sample data</p>
 
-<!-- Captured from the mock-backed review preview on November 4; preview source revision b710d6d9d. -->
+<!-- Captured November 10, 2026 from https://kfp-ui-review.spahrj.workers.dev/#/runs/details/sample-run-daily-success in dark mode. Mock data, revision 897ef84. -->
 
 ---
 ---
 
 # Run details
 
-<img class="modernization-image" src="/evidence/ui-run-details-preview.png" alt="Redesigned run graph with task logs in the Kubeflow Pipelines preview" />
+<img class="modernization-image" src="/evidence/ui-run-details-review.jpg" alt="Successful taxi-training run showing preparation, training, validation, evaluation and their artifacts" />
 
 <p class="source">Preview · <a href="https://github.com/kubeflow/pipelines/pull/14584" target="_blank" rel="noopener noreferrer">PR #14584</a> · sample data</p>
 
-<!-- The run-details image is from the mock-backed review preview, captured October 22; it is not a production deployment. Check PR status before presenting. -->
+<!-- Captured November 10, 2026 from https://kfp-ui-review.spahrj.workers.dev/#/runs/details/sample-run-daily-success. Mock data, revision 897ef84. No error banner is present. -->
+
+---
+---
+
+# Nested DAGs and conditions
+
+<img class="modernization-image" src="/evidence/ui-nested-dag-review.jpg" alt="Expanded nested feature-preparation DAG with normalization, encoding and conditional training branches" />
+
+<p class="source"><a href="https://kfp-ui-review.spahrj.workers.dev/#/pipelines/details/nested-conditions" target="_blank" rel="noopener noreferrer">UI review preview</a> · Nov 10, 2026 · mock data</p>
+
+<!-- Fresh review-app screenshot, revision 897ef84. The rejection branch is part of the pipeline definition, not an application error. -->
+
+---
+---
+
+# Parallel execution
+
+<img class="modernization-image" src="/evidence/ui-parallel-run-review.jpg" alt="Successful three-fold validation run with three expanded parallel iterations, each containing training and scoring tasks" />
+
+<p class="source"><a href="https://kfp-ui-review.spahrj.workers.dev/#/runs/details/sample-run-parallel-folds" target="_blank" rel="noopener noreferrer">UI review preview</a> · Nov 10, 2026 · mock data</p>
+
+<!-- Fresh review-app screenshot, revision 897ef84. All three displayed iterations succeeded. -->
+
+---
+---
+
+# A 32-component pipeline
+
+<img class="modernization-image" src="/evidence/ui-regional-dag-review.jpg" alt="Regional training DAG with eight parallel extract-transform-train-evaluate branches, 32 components total" />
+
+<p class="source"><a href="https://kfp-ui-review.spahrj.workers.dev/#/pipelines/details/regional-training" target="_blank" rel="noopener noreferrer">UI review preview</a> · Nov 10, 2026 · mock data</p>
+
+<!-- Fresh review-app screenshot, revision 897ef84. Pipeline definition view, not an executing run. -->
+
+---
+---
+
+# Run timeline
+
+<img class="modernization-image" src="/evidence/ui-run-timeline-review.jpg" alt="Successful run timeline showing overlapping model training and feature validation, with task duration and state history" />
+
+<p class="source"><a href="https://kfp-ui-review.spahrj.workers.dev/#/runs/details/sample-run-daily-success" target="_blank" rel="noopener noreferrer">UI review preview</a> · Nov 10, 2026 · mock data</p>
+
+<!-- Captured on the Timeline tab November 10, 2026, revision 897ef84. Training and validation overlap; the selected training task shows duration and state history without an error banner. -->
 
 ---
 ---
