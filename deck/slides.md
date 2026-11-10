@@ -43,6 +43,15 @@ class: blue
 ---
 ---
 
+# I didn't start from nowhere
+
+<p class="lead">I already worked with a Kubeflow maintainer. That connection helped me get involved.</p>
+
+<!-- This relationship mattered. I had help getting started, and I don't want to tell a bootstrap story that leaves out that connection. This is what happened for me, not a formula that guarantees the same outcome for someone else. Credit later collaborators as their help enters the story. -->
+
+---
+---
+
 # Why weren't the dependencies getting updated?
 
 <p class="small" style="opacity: 1">Maybe this was a configuration issue?</p>
@@ -137,44 +146,23 @@ class: comic-slide
 ---
 ---
 
-# This is really hard to do alone
+# We built confidence in the changes<br>over time
 
-<p class="lead">There's the old “pull yourself up by your bootstraps” fallacy. It helps a lot to know someone.</p>
+<p class="lead">I was learning the frontend.<br>Other people brought experience I didn't have.</p>
 
-<p class="lead">That someone for me was a colleague who was an existing Kubeflow maintainer.</p>
-
-<!-- This relationship mattered. I was already colleagues with one of the maintainers. I don't want to tell a bootstrap story that leaves out the connection and support that helped me get started. Let Jeff identify the person and details in his own words. -->
+<!-- The confidence came from working through changes together, not from a personal formula for earning trust. The next example shows tests before an upgrade; then credit the UI colleague who helped review the work. -->
 
 ---
 ---
 
-# Why should a maintainer trust me?
+# Tests before the upgrade
 
-<div class="three"><div class="card"><b>Why do I care?</b><p>What problem am I trying to solve?</p></div><div class="card"><b>Am I invested?</b><p>Will I follow through on the work?</p></div><div class="card"><b>Will I be around?</b><p>What happens if my change breaks something?</p></div></div>
-
-<!-- There are a lot of drive-by PRs right now. A maintainer has to decide whether a contributor understands the project and will be around if something breaks. Explain why you care and demonstrate that you are invested. One-off contributions can still be valuable; the point is how I earned confidence for a larger effort. -->
-
----
-class: blue
----
-
-# How do you eat an elephant?
-
-<div class="bigquote">One bite<br><span class="accent">at a time.</span></div>
-
-<!-- How do you eat an elephant? One bite at a time. This is not a new software practice. I tried to scope the work and break it into pieces that could be understood and reviewed. Some changes were still large; don't imply every PR was small. -->
-
----
----
-
-# Start with smaller changes
-
-<div class="pathway"><div class="step">Remove confusion<span>Disabled Renovate config · <a href="https://github.com/kubeflow/pipelines/pull/12631" target="_blank" rel="noopener noreferrer">#12631</a></span></div><div class="arrow">→</div><div class="step">Add test coverage<span>Kubernetes client tests · <a href="https://github.com/kubeflow/pipelines/pull/12635" target="_blank" rel="noopener noreferrer">#12635</a></span></div><div class="arrow">→</div><div class="step">Update dependencies<span>Server security fixes · <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></span></div></div>
+<div class="pathway"><div class="step">Add test coverage<span>Kubernetes client tests · <a href="https://github.com/kubeflow/pipelines/pull/12635" target="_blank" rel="noopener noreferrer">#12635</a></span></div><div class="arrow">→</div><div class="step">Upgrade the client<span>Server security fixes · <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></span></div></div>
 
 <p class="small muted">These changes helped me get familiar with the project.</p>
-<p class="source">Merged PRs <a href="https://github.com/kubeflow/pipelines/pull/12631" target="_blank" rel="noopener noreferrer">#12631</a>, <a href="https://github.com/kubeflow/pipelines/pull/12635" target="_blank" rel="noopener noreferrer">#12635</a>, <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></p>
+<p class="source">Merged PRs <a href="https://github.com/kubeflow/pipelines/pull/12635" target="_blank" rel="noopener noreferrer">#12635</a>, <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></p>
 
-<!-- The first PR removed the disabled Renovate file. Another added tests around the Kubernetes client before upgrading it. A later server PR removed vulnerable dependencies but involved a substantial ESM and test migration. These examples show progress, not a claim that every PR was small or that each was strictly dependent on the prior one. -->
+<!-- I added tests around the Kubernetes client before upgrading it. The later server PR removed vulnerable dependencies but involved a substantial ESM and test migration. This is a concrete example from my work, not a claim that every PR was small. -->
 
 ---
 ---
