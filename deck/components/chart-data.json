@@ -536,5 +536,77 @@
       "category": "sdk",
       "count": 37
     }
+  ],
+  "monthlyActivity": [
+    {
+      "label": "Jan",
+      "year": 2026,
+      "contributed": 64,
+      "reviewed": 0,
+      "total": 64
+    },
+    {
+      "label": "Feb",
+      "year": 2026,
+      "contributed": 210,
+      "reviewed": 12,
+      "total": 222
+    },
+    {
+      "label": "Mar",
+      "year": 2026,
+      "contributed": 307,
+      "reviewed": 45,
+      "total": 352
+    },
+    {
+      "label": "Apr",
+      "year": 2026,
+      "contributed": 177,
+      "reviewed": 36,
+      "total": 213
+    },
+    {
+      "label": "May",
+      "year": 2026,
+      "contributed": 130,
+      "reviewed": 14,
+      "total": 144
+    },
+    {
+      "label": "Jun",
+      "year": 2026,
+      "contributed": 104,
+      "reviewed": 4,
+      "total": 108
+    },
+    {
+      "label": "Jul",
+      "year": 2026,
+      "contributed": 464,
+      "reviewed": 20,
+      "total": 484
+    },
+    {
+      "label": "Aug",
+      "year": 2026,
+      "contributed": 223,
+      "reviewed": 19,
+      "total": 242
+    },
+    {
+      "label": "Sep",
+      "year": 2026,
+      "contributed": 301,
+      "reviewed": 44,
+      "total": 345
+    },
+    {
+      "label": "Oct",
+      "year": 2026,
+      "contributed": 374,
+      "reviewed": 80,
+      "total": 454
+    }
   ]
 }

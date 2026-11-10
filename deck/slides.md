@@ -292,6 +292,18 @@ class: blue
 <!-- Two activity categories, not the complete GitHub calendar total. Includes accessible private activity in aggregate. Excludes issues, repository creation and remaining unclassified activity. A PR and its commits may both count. Reviewed uses GitHub review contributions, not all assistance, discussion or review submissions. Prior years are full years; 2026 ends October 31. -->
 
 ---
+---
+
+# My GitHub activity in 2026
+
+<ContributionCharts mode="monthly" />
+
+<p class="tiny muted">Contributed = commits authored + PRs opened. Reviewed = GitHub PR-review contributions.<br>All repositories, January–October. A PR reviewed in multiple months can count in each month.</p>
+<p class="source">GitHub authenticated monthly contribution totals · refreshed Nov 9, 2026</p>
+
+<!-- Same two categories as the preceding yearly chart. Monthly review counts may sum higher than the yearly count because a PR can be reviewed in several months. These are activity counts, not effort or unique pieces of work. The vertical scale is fitted to monthly totals, not the preceding annual chart. -->
+
+---
 class: blue
 ---
 
