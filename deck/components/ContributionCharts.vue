@@ -5,6 +5,7 @@ const props = defineProps({ mode: { type: String, default: 'annual' } })
 const months = ['01','02','03','04','05','06','07','08','09','10','11']
 const monthLabels = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov']
 const series = [
+  { key: 'commits', label: 'Commits authored', color: '#1a5190' },
   { key: 'opened', label: 'PRs authored', color: '#168477' },
   { key: 'reviewed', label: 'PRs reviewed', color: '#d51a87' },
 ]
@@ -17,8 +18,8 @@ function color(n) { return n === 0 ? '#e9edf4' : n < 3 ? '#a8c6e9' : n < 10 ? '#
 </script>
 <template>
 <div v-if="props.mode === 'annual' || props.mode === 'monthly'">
-  <svg class="aligned-charts" viewBox="0 0 850 230" role="img" :aria-label="props.mode === 'monthly' ? 'Monthly PRs authored and PRs reviewed in 2026 through November 9' : 'Yearly PRs authored and PRs reviewed through November 9, 2026'">
-    <g v-for="(s, panel) in series" :key="s.key" :transform="'translate(0,' + panel * 110 + ')'">
+  <svg class="aligned-charts" viewBox="0 0 850 280" role="img" :aria-label="props.mode === 'monthly' ? 'Monthly commits authored, PRs authored and PRs reviewed in 2026 through November 9' : 'Yearly commits authored, PRs authored and PRs reviewed through November 9, 2026'">
+    <g v-for="(s, panel) in series" :key="s.key" :transform="'translate(0,' + panel * 85 + ')'">
       <text x="0" y="35" class="panel-name" :fill="s.color">{{ s.label }}</text>
       <text x="0" y="54" class="panel-scale">Scale: 0–{{ upper(s.key).toLocaleString() }}</text>
       <line x1="175" x2="850" y1="74" y2="74" stroke="#c4d2df" />
@@ -28,7 +29,7 @@ function color(n) { return n === 0 ? '#e9edf4' : n < 3 ? '#a8c6e9' : n < 10 ? '#
         <text :x="x(i)" :y="68-row[s.key]/upper(s.key)*50" text-anchor="middle" class="panel-value">{{ row[s.key].toLocaleString() }}</text>
       </g>
     </g>
-    <text v-for="(row,i) in chartRows" :key="row.label" :x="x(i)" y="215" text-anchor="middle" class="panel-period">{{ row.label }}</text>
+    <text v-for="(row,i) in chartRows" :key="row.label" :x="x(i)" y="267" text-anchor="middle" class="panel-period">{{ row.label }}</text>
   </svg>
 </div>
 <div v-else class="heatmap" :style="{ '--month-count': months.length }">

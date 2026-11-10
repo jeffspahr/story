@@ -13,20 +13,21 @@ const periods = [
     return { key: `m${i}`, from: `2026-${month}-01`, to: i === 10 ? cutoff : `2026-${month}-${last}` }
   }),
 ]
-const fields = 'totalPullRequestContributions totalPullRequestReviewContributions'
+const fields = 'totalCommitContributions totalPullRequestContributions totalPullRequestReviewContributions'
 const query = `{viewer{login ${periods.map(p => `${p.key}:contributionsCollection(from:"${p.from}T00:00:00Z",to:"${p.to}T23:59:59Z"){${fields}}`).join(' ')}}}`
 const response = JSON.parse(execFileSync('gh', ['api', 'graphql', '-f', `query=${query}`], { encoding: 'utf8' }))
 assert.ok(!response.errors, JSON.stringify(response.errors))
 assert.equal(response.data.viewer.login, 'jeffspahr')
 function counts(key) {
   const row = response.data.viewer[key]
-  const result = { opened: row.totalPullRequestContributions, reviewed: row.totalPullRequestReviewContributions }
+  const result = { commits: row.totalCommitContributions, opened: row.totalPullRequestContributions, reviewed: row.totalPullRequestReviewContributions }
   for (const value of Object.values(result)) assert.ok(Number.isInteger(value) && value >= 0)
   return result
 }
 const annual = years.map(year => ({ year, ...counts(`y${year}`) }))
 const monthlyActivity = labels.map((label, i) => ({ label, ...counts(`m${i}`) }))
 assert.equal(annual.at(-1).opened, monthlyActivity.reduce((sum, row) => sum + row.opened, 0))
+assert.equal(annual.at(-1).commits, monthlyActivity.reduce((sum, row) => sum + row.commits, 0))
 const output = new URL('../components/chart-data.json', import.meta.url)
 const data = JSON.parse(readFileSync(output, 'utf8'))
 data.annual = annual

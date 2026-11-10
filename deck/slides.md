@@ -345,7 +345,7 @@ class: blue
 <p class="tiny muted">All repositories. *2026 through Nov 9; prior years are full years. PRs authored counted by opening date.</p>
 <p class="source">GitHub authenticated contribution totals · Through Nov 9, 2026 (UTC)</p>
 
-<!-- PRs authored and PRs reviewed are separate measures with independently labeled scales. Authored counts use the opening date and include all PR states. Reviewed uses distinct PRs in each queried GitHub contribution period. Includes accessible private activity in aggregate; commits are excluded. -->
+<!-- The story is increased activity, not a change in workflow. Earlier direct-to-main work is represented in commits. Commits, authored PRs and reviewed PRs are separate measures with independent linear scales; never add them into a total because commits and PRs overlap. Authored PRs use opening date and all states. Reviews count distinct PRs per queried period. Includes accessible private activity only in aggregate. -->
 
 ---
 ---
@@ -357,7 +357,7 @@ class: blue
 <p class="tiny muted">All repositories, January–November. November through Nov 9.<br>A PR reviewed in multiple months can count in each month.</p>
 <p class="source">GitHub authenticated monthly contribution totals · Through Nov 9, 2026 (UTC)</p>
 
-<!-- Monthly PR authored and reviewed measures. Authored PRs are counted by opening date. A PR reviewed across months can count in each; monthly reviews need not sum to the annual reviewed-PR count. Each panel has its own labeled scale. Commits are excluded. -->
+<!-- Monthly commits authored, PRs authored and PRs reviewed, each on a labeled linear scale. These overlapping measures are not added. Authored PRs use opening date. A PR reviewed across months can count in each; monthly reviews need not sum to the annual reviewed-PR count. -->
 
 ---
 class: blue
