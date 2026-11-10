@@ -260,9 +260,9 @@ class: comic-slide
 ---
 ---
 
-# Then more people showed up
+# We were gaining momentum<br>and more help showed up
 
-<p class="lead">Manaswini and I made a plan and divided up the work.</p>
+<p class="lead"><a href="https://github.com/manaswinidas" target="_blank" rel="noopener noreferrer">Manaswini Das</a> and I made a plan and divided up the work.</p>
 
 <p class="small">Contributors picked up dependencies, tests, and framework upgrades.</p>
 <p class="source">Collaborative planning: speaker account · Kubeflow modernization blog</p>
