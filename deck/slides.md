@@ -187,7 +187,7 @@ class: comic-slide
 ---
 ---
 
-# My first frontend changes
+# I started with the frontend tests
 
 <MilestoneTimeline :step="2" />
 
