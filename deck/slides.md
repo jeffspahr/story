@@ -196,7 +196,7 @@ class: comic-slide
 
 # I built a screenshot comparison tool
 
-<p class="lead">I couldn't rely on my colleague for every review.<br>I needed a way to check the UI myself.</p>
+<p class="lead">I needed to validate that I wasn't introducing visual regressions.</p>
 
 <div class="three"><div class="card"><b>Before</b><p>Capture the existing UI.</p></div><div class="card"><b>After</b><p>Capture the same views with my changes.</p></div><div class="card"><b>Compare</b><p>Highlight pixel differences.</p></div></div>
 
