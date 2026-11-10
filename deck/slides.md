@@ -71,6 +71,13 @@ class: blue
 ---
 ---
 
+# My first PR
+
+<MilestoneTimeline :step="1" />
+
+---
+---
+
 # Why wasn't Dependabot fixing it?
 
 <div class="three"><div class="card"><b>Old frameworks</b><p>Parts of the stack had reached end of life.</p></div><div class="card"><b>Dependencies</b><p>Upgrading one package meant upgrading others.</p></div><div class="card"><b>Code changes</b><p>New versions needed changes to the app and its tests.</p></div></div>
@@ -153,6 +160,13 @@ class: blue
 ---
 ---
 
+# My first frontend changes
+
+<MilestoneTimeline :step="2" />
+
+---
+---
+
 # I asked a UI developer to review my changes
 
 <p class="lead">His thumbs-up gave me and the maintainers confidence to start merging.</p>
@@ -224,6 +238,13 @@ class: blue
 ---
 ---
 
+# The build and test tools were replaced
+
+<MilestoneTimeline :step="3" />
+
+---
+---
+
 # Then more people showed up
 
 <p class="lead">Manaswini and I made a plan and divided up the work.</p>
@@ -232,6 +253,13 @@ class: blue
 <p class="source">Collaborative planning: speaker account · Kubeflow modernization blog</p>
 
 <!-- Jeff identifies Manaswini as a key collaborator who helped plan and distribute the work. Add verified examples and specific contributor names as we research them. The blog acknowledges several contributors; it is not an exhaustive list. -->
+
+---
+---
+
+# I became a frontend approver
+
+<MilestoneTimeline :step="4" />
 
 ---
 ---
@@ -258,6 +286,13 @@ class: blue
 ---
 ---
 
+# The work grew into CI
+
+<MilestoneTimeline :step="5" />
+
+---
+---
+
 # From frontend into the wider project
 
 <ContributionCharts mode="heatmap" />
@@ -270,14 +305,20 @@ class: blue
 ---
 ---
 
-# From my first PR to maintainer
+# I became a project maintainer
 
-<div class="pathway"><div class="step">First PR<span>January 9 · <a href="https://github.com/kubeflow/pipelines/pull/12631" target="_blank" rel="noopener noreferrer">#12631</a></span></div><div class="arrow">→</div><div class="step">Frontend approver<span>February 23 · <a href="https://github.com/kubeflow/pipelines/pull/12869" target="_blank" rel="noopener noreferrer">#12869</a></span></div><div class="arrow">→</div><div class="step">Project maintainer<span>July 28 · <a href="https://github.com/kubeflow/pipelines/pull/13908" target="_blank" rel="noopener noreferrer">#13908</a></span></div></div>
+<MilestoneTimeline :step="6" />
 
-<p class="small muted">45 days describes becoming a maintainer, not completing every upgrade.</p>
-<p class="source">PRs <a href="https://github.com/kubeflow/pipelines/pull/12631" target="_blank" rel="noopener noreferrer">#12631</a>, <a href="https://github.com/kubeflow/pipelines/pull/12869" target="_blank" rel="noopener noreferrer">#12869</a>, and <a href="https://github.com/kubeflow/pipelines/pull/13908" target="_blank" rel="noopener noreferrer">#13908</a></p>
+<!-- Frontend approver was the 45-day milestone. Project-wide maintainer came later, on July 28. All timeline merge dates use UTC. -->
 
-<!-- I became a frontend approver on February 23. PR #13908 added me to the project-wide OWNERS approvers on July 28. Verify the exact starting milestone behind the 45-day title before presenting. -->
+---
+---
+
+# Hardening releases
+
+<MilestoneTimeline :step="7" />
+
+<!-- droctothorpe built the release automation. My work iterated on that foundation and focused on eliminating fixable vulnerabilities from releases. PR #14865 is a concrete remediation milestone, not a claim that I originated release automation or that this single PR cleared every release image: inverse-proxy remediation was deferred. -->
 
 ---
 ---
@@ -323,6 +364,13 @@ class: blue
 <p class="source">Pipelines list · <a href="https://github.com/jeffspahr/jeffspahr-pipelines/releases/tag/ui-modernization-comparison-20261021" target="_blank" rel="noopener noreferrer">Comparison recording</a> · sample data</p>
 
 <!-- Legacy application build cd3ed541, from the October 21 comparison recording. The next slide shows the same view and sample data in the modernization build. -->
+
+---
+---
+
+# Today: a new UI
+
+<MilestoneTimeline :step="8" />
 
 ---
 ---
