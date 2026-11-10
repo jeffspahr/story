@@ -2,45 +2,38 @@
   "annual": [
     {
       "year": 2020,
-      "commits": 24,
       "opened": 3,
       "reviewed": 0
     },
     {
       "year": 2021,
-      "commits": 204,
       "opened": 4,
       "reviewed": 1
     },
     {
       "year": 2022,
-      "commits": 58,
       "opened": 3,
       "reviewed": 0
     },
     {
       "year": 2023,
-      "commits": 56,
       "opened": 9,
       "reviewed": 1
     },
     {
       "year": 2024,
-      "commits": 57,
       "opened": 4,
       "reviewed": 4
     },
     {
       "year": 2025,
-      "commits": 269,
       "opened": 4,
       "reviewed": 2
     },
     {
       "year": 2026,
-      "commits": 1782,
-      "opened": 572,
-      "reviewed": 258
+      "opened": 594,
+      "reviewed": 275
     }
   ],
   "categories": [
@@ -294,68 +287,67 @@
   "monthlyActivity": [
     {
       "label": "Jan",
-      "commits": 60,
       "opened": 4,
       "reviewed": 0
     },
     {
       "label": "Feb",
-      "commits": 186,
       "opened": 24,
       "reviewed": 12
     },
     {
       "label": "Mar",
-      "commits": 257,
       "opened": 50,
       "reviewed": 45
     },
     {
       "label": "Apr",
-      "commits": 159,
       "opened": 18,
       "reviewed": 36
     },
     {
       "label": "May",
-      "commits": 107,
       "opened": 23,
       "reviewed": 14
     },
     {
       "label": "Jun",
-      "commits": 93,
       "opened": 11,
       "reviewed": 4
     },
     {
       "label": "Jul",
-      "commits": 394,
       "opened": 70,
       "reviewed": 20
     },
     {
       "label": "Aug",
-      "commits": 158,
       "opened": 65,
       "reviewed": 19
     },
     {
       "label": "Sep",
-      "commits": 203,
       "opened": 98,
       "reviewed": 44
     },
     {
       "label": "Oct",
-      "commits": 165,
       "opened": 209,
       "reviewed": 80
+    },
+    {
+      "label": "Nov",
+      "opened": 22,
+      "reviewed": 21
     }
   ],
   "heatmapMetadata": {
     "cutoff": "2026-11-09",
     "authoredPrs": 469,
     "scope": "Public kubeflow/pipelines PRs authored by jeffspahr, all states, grouped by UTC opening month. Path categories overlap."
+  },
+  "activityMetadata": {
+    "cutoff": "2026-11-09",
+    "scope": "Authenticated GitHub contribution totals across all repositories; private activity retained only as aggregates. Reviews are distinct PRs per queried period; monthly review counts need not sum to yearly counts."
   }
 }

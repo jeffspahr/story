@@ -342,10 +342,10 @@ class: blue
 
 <ContributionCharts />
 
-<p class="tiny muted">All repositories. *2026 through Oct 31; prior years are full years.<br>Separate scales and measures: a PR and its commits can both appear. Counts are not added.</p>
-<p class="source">GitHub authenticated contribution totals · refreshed Nov 9, 2026</p>
+<p class="tiny muted">All repositories. *2026 through Nov 9; prior years are full years. PRs authored counted by opening date.</p>
+<p class="source">GitHub authenticated contribution totals · Through Nov 9, 2026 (UTC)</p>
 
-<!-- Separate measures preserve direct-to-branch work without adding commits to PRs. Each panel has its own labeled scale and aligned periods. Reviewed uses distinct PRs in the selected GitHub contribution period. Includes accessible private activity in aggregate. -->
+<!-- PRs authored and PRs reviewed are separate measures with independently labeled scales. Authored counts use the opening date and include all PR states. Reviewed uses distinct PRs in each queried GitHub contribution period. Includes accessible private activity in aggregate; commits are excluded. -->
 
 ---
 ---
@@ -354,10 +354,10 @@ class: blue
 
 <ContributionCharts mode="monthly" />
 
-<p class="tiny muted">All repositories, January–October. Each panel has its own scale; counts are not added.<br>A PR reviewed in multiple months can count in each month.</p>
-<p class="source">GitHub authenticated monthly contribution totals · refreshed Nov 9, 2026</p>
+<p class="tiny muted">All repositories, January–November. November through Nov 9.<br>A PR reviewed in multiple months can count in each month.</p>
+<p class="source">GitHub authenticated monthly contribution totals · Through Nov 9, 2026 (UTC)</p>
 
-<!-- Monthly commit and PR measures. A PR reviewed across months can count in each; monthly reviews need not sum to the annual reviewed-PR count. The chart uses its own monthly scale. -->
+<!-- Monthly PR authored and reviewed measures. Authored PRs are counted by opening date. A PR reviewed across months can count in each; monthly reviews need not sum to the annual reviewed-PR count. Each panel has its own labeled scale. Commits are excluded. -->
 
 ---
 class: blue

@@ -50,3 +50,7 @@ White slides use the intact [official CNCF North America 2026 color SVG](https:/
 The heatmap uses 469 public PRs authored by `jeffspahr` in `kubeflow/pipelines`, opened January 1-November 9, 2026 (UTC), including open and closed PRs. October is complete; November is partial. Each PR counts once per matching changed-path category. Categories overlap and are not effort measures. Annual and monthly activity charts have separate snapshots.
 
 `node deck/scripts/build-heatmap.mjs PR_JSON 2026-11-09` refreshes only the heatmap data. Input is a JSON array with `number`, `createdAt`, `changedFiles`, and complete `files: [{path}]` inventories. Fetch all states with `gh pr list`; paginate `/pulls/{number}/files` for PRs exceeding 100 files. The script rejects duplicates, out-of-range dates, and incomplete inventories.
+
+## PR activity charts
+
+Run `node deck/scripts/refresh-pr-activity.mjs` with GitHub authentication to refresh yearly 2020-2026 and monthly Jan-Nov 2026 totals through November 9 UTC. It requests aggregate authored/reviewed PR contributions only, checks the account, and reconciles monthly authored counts against the yearly total. Private repository details are never requested. Each panel uses its own labeled scale. Reviews are distinct PRs per queried period, so a PR reviewed in multiple months may appear in each month; do not sum monthly review counts as a distinct annual total. Commits are excluded. The heatmap data is preserved.
