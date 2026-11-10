@@ -162,15 +162,6 @@ class: comic-slide
 ---
 ---
 
-# We built confidence in the changes<br>over time
-
-<p class="lead">I was learning the frontend.<br>Other people brought experience I didn't have.</p>
-
-<!-- The confidence came from working through changes together, not from a personal formula for earning trust. The next example shows tests before an upgrade; then credit the UI colleague who helped review the work. -->
-
----
----
-
 # Tests before the upgrade
 
 <div class="pathway"><div class="step">Add test coverage<span>Kubernetes client tests · <a href="https://github.com/kubeflow/pipelines/pull/12635" target="_blank" rel="noopener noreferrer">#12635</a></span></div><div class="arrow">→</div><div class="step">Upgrade the client<span>Server security fixes · <a href="https://github.com/kubeflow/pipelines/pull/12756" target="_blank" rel="noopener noreferrer">#12756</a></span></div></div>
