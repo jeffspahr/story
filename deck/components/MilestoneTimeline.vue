@@ -66,10 +66,8 @@ const milestones = [
       </div>
     </li>
   </ol>
-  <p class="cluster-legend">Small circles: 1 / 2–9 / 10+ PRs · Hover or focus for links · Merges through Nov 9</p>
   <p v-if="step === 7" class="milestone-key">2026 · Public disclosures: October 28–29 · <a href="https://github.com/kubeflow/pipelines/releases/tag/2.18.0" target="_blank" rel="noopener noreferrer">2.18 release notes</a></p>
-  <p v-else-if="step < 8" class="milestone-key">2026 · Milestones in sequence, not to time scale · <span>Current milestone</span></p>
-  <p v-else class="milestone-key">2026 · Not to time scale · UI PR is open as of November 9. These screenshots are a preview.</p>
+  <p v-if="step === 8" class="milestone-key">UI PR is open as of November 9. These screenshots are a preview.</p>
 </template>
 
 <style scoped>
@@ -89,9 +87,7 @@ const milestones = [
 .milestone-timeline p { font-size: 12px; line-height: 1.35; margin: 0 0 4px; }
 .milestone-timeline a { color: inherit; font-size: 11px; text-decoration: underline; }
 .milestone-key { font-size: 11px; color: #596c83; margin: 4px 0 0; }
-.milestone-key span { color: #ac136b; }
 .milestone-summary { font-size: 14px !important; margin: 0 0 8px; color: #112c50; opacity: 1 !important; }
-.cluster-legend { font-size: 10px !important; margin: 8px 0 0; color: #596c83; }
 .pr-cluster { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 24px; height: 24px; display: grid; place-items: center; z-index: 2; }
 .cluster-active { z-index: 10; }
 .cluster-button { display: grid; place-items: center; width: 24px; height: 24px; padding: 0; border: 0; background: transparent; cursor: pointer; }
