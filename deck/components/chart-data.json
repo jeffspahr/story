@@ -2,94 +2,45 @@
   "annual": [
     {
       "year": 2020,
-      "from": "2020-01-01",
-      "to": "2020-12-31",
-      "calendar_total": 81,
-      "commits": 24,
-      "issues": 6,
-      "pull_requests": 3,
-      "reviews": 0,
-      "repositories": 2,
-      "restricted": 46,
-      "total": 81
+      "contributed": 27,
+      "reviewed": 0,
+      "total": 27
     },
     {
       "year": 2021,
-      "from": "2021-01-01",
-      "to": "2021-12-31",
-      "calendar_total": 227,
-      "commits": 191,
-      "issues": 7,
-      "pull_requests": 4,
-      "reviews": 1,
-      "repositories": 1,
-      "restricted": 23,
-      "total": 227
+      "contributed": 208,
+      "reviewed": 1,
+      "total": 209
     },
     {
       "year": 2022,
-      "from": "2022-01-01",
-      "to": "2022-12-31",
-      "calendar_total": 61,
-      "commits": 58,
-      "issues": 0,
-      "pull_requests": 3,
-      "reviews": 0,
-      "repositories": 0,
-      "restricted": 0,
+      "contributed": 61,
+      "reviewed": 0,
       "total": 61
     },
     {
       "year": 2023,
-      "from": "2023-01-01",
-      "to": "2023-12-31",
-      "calendar_total": 67,
-      "commits": 56,
-      "issues": 0,
-      "pull_requests": 9,
-      "reviews": 1,
-      "repositories": 1,
-      "restricted": 0,
-      "total": 67
-    },
-    {
-      "year": 2024,
-      "from": "2024-01-01",
-      "to": "2024-12-31",
-      "calendar_total": 66,
-      "commits": 57,
-      "issues": 0,
-      "pull_requests": 4,
-      "reviews": 4,
-      "repositories": 1,
-      "restricted": 0,
+      "contributed": 65,
+      "reviewed": 1,
       "total": 66
     },
     {
+      "year": 2024,
+      "contributed": 61,
+      "reviewed": 4,
+      "total": 65
+    },
+    {
       "year": 2025,
-      "from": "2025-01-01",
-      "to": "2025-12-31",
-      "calendar_total": 282,
-      "commits": 266,
-      "issues": 3,
-      "pull_requests": 4,
-      "reviews": 2,
-      "repositories": 3,
-      "restricted": 4,
-      "total": 282
+      "contributed": 273,
+      "reviewed": 2,
+      "total": 275
     },
     {
       "year": 2026,
-      "from": "2026-01-01",
-      "to": "2026-10-31",
-      "calendar_total": 2681,
-      "commits": 605,
-      "issues": 73,
-      "pull_requests": 552,
-      "reviews": 253,
-      "repositories": 15,
-      "restricted": 1183,
-      "total": 2681
+      "contributed": 2354,
+      "reviewed": 258,
+      "total": 2612
     }
   ],
   "categories": [

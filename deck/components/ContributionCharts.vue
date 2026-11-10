@@ -3,12 +3,8 @@ import data from './chart-data.json'
 const props = defineProps({ mode: { type: String, default: 'annual' } })
 const months = ['01','02','03','04','05','06','07','08','09','10']
 const series = [
-  { key: 'commits', label: 'Commits', color: '#1a5190' },
-  { key: 'pull_requests', label: 'PRs opened', color: '#d51a87' },
-  { key: 'reviews', label: 'PR reviews', color: '#168477' },
-  { key: 'issues', label: 'Issues opened', color: '#c47716' },
-  { key: 'repositories', label: 'Repositories created', color: '#634d94' },
-  { key: 'restricted', label: 'Private / restricted', color: '#93a4b8' },
+  { key: 'contributed', label: 'Contributed by me', color: '#1a5190' },
+  { key: 'reviewed', label: 'Reviewed by me', color: '#d51a87' },
 ]
 const peak = Math.max(...data.annual.map(row => row.total))
 const areas = [ ['Frontend','frontend'], ['CI','ci'], ['Backend / API','backend_api'], ['SDK','sdk'], ['Deployment','deployment_release'] ]

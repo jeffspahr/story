@@ -286,10 +286,10 @@ class: blue
 
 <ContributionCharts />
 
-<p class="tiny muted">All repositories. *2026 through Oct 31; prior years are full years. Private/restricted activity is aggregated, not broken down by type. These are GitHub contribution counts, not effort or unique pieces of work.</p>
-<p class="source">GitHub contribution calendar and type totals · collected Oct 31, 2026</p>
+<p class="tiny muted">Contributed = commits authored + PRs opened. Reviewed = GitHub PR-review contributions.<br>All repositories. *2026 through Oct 31. Activity counts, not unique PRs or effort; other activity excluded.</p>
+<p class="source">GitHub authenticated contribution totals · refreshed Nov 9, 2026</p>
 
-<!-- The six categories reconcile exactly to each annual calendar total for 2020-2026. PR reviews use GitHub contribution definitions, not every review submission. Multiple contribution types can relate to the same PR. Private/restricted contributions are an unclassified aggregate, not an extra count of the visible types. -->
+<!-- Two activity categories, not the complete GitHub calendar total. Includes accessible private activity in aggregate. Excludes issues, repository creation and remaining unclassified activity. A PR and its commits may both count. Reviewed uses GitHub review contributions, not all assistance, discussion or review submissions. Prior years are full years; 2026 ends October 31. -->
 
 ---
 class: blue
