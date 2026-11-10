@@ -20,7 +20,7 @@ function blurCluster(event) {
 }
 const milestones = [
   { title: 'First PR', date: 'Jan 9', detail: 'Remove disabled Renovate config', pr: 12631 },
-  { title: 'Frontend tests', date: 'Jan 15', detail: 'Test the Kubernetes client', pr: 12635 },
+  { title: 'Frontend tests', date: 'Jan 15', detail: 'Stabilize frontend E2E tests', pr: 12636 },
   { title: 'CRA to Vite', date: 'Feb 9', detail: 'Replace the build and test tools', pr: 12754 },
   { title: 'Frontend approver', date: 'Feb 23', detail: '45 days after my first PR', pr: 12869 },
   { title: 'CI work', date: 'Jul 19', detail: 'Stabilize and speed up test lanes', pr: 13739 },

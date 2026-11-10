@@ -1,10 +1,10 @@
 export const boundaries = [
-  '2026-01-09T11:21:21Z', '2026-01-15T03:26:23Z',
+  '2026-01-09T11:21:21Z', '2026-01-15T03:04:24Z',
   '2026-02-09T16:42:12Z', '2026-02-23T21:36:24Z',
   '2026-07-19T00:09:27Z', '2026-07-28T15:47:30Z',
   '2026-10-29T04:44:27Z', '2026-11-10T00:00:00Z',
 ]
-export const milestonePrs = [12631, 12635, 12754, 12869, 13739, 13908]
+export const milestonePrs = [12631, 12636, 12754, 12869, 13739, 13908]
 export const circleSize = count => count === 1 ? 6 : count < 10 ? 10 : 14
 
 export function buildClusters(prs) {

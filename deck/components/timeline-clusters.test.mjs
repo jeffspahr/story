@@ -22,6 +22,8 @@ test('published cluster counts reconcile with verified authored merges', () => {
   assert.equal(prs.length + data.milestoneCount, data.total)
   assert.equal(new Set(prs.map(p => p.number)).size, prs.length)
   assert.ok(prs.every(p => !milestonePrs.includes(p.number)))
+  assert.ok(milestonePrs.includes(12636))
+  assert.ok(prs.some(p => p.number === 12635))
   for (let gap = 0; gap < 7; gap++) assert.ok(data.clusters.filter(c => c.gap === gap).length <= 3)
   assert.ok(prs.every(p => p.url === `https://github.com/kubeflow/pipelines/pull/${p.number}`))
   assert.deepEqual([1, 2, 9, 10, 100].map(circleSize), [6, 10, 10, 14, 14])

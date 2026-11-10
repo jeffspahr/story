@@ -5,20 +5,17 @@
   "milestoneCount": 5,
   "clusters": [
     {
-      "id": "0-2",
-      "gap": 0,
-      "offset": 0.75,
+      "id": "1-0",
+      "gap": 1,
+      "offset": 0.25,
       "prs": [
         {
-          "mergedAt": "2026-01-15T03:04:24Z",
-          "number": 12636,
-          "title": "fix(frontend): stabilize E2E integration tests. Fixes #10881",
-          "url": "https://github.com/kubeflow/pipelines/pull/12636",
+          "mergedAt": "2026-01-15T03:26:23Z",
+          "number": 12635,
+          "title": "test: add unit tests for k8s-helper kubernetes API functions",
+          "url": "https://github.com/kubeflow/pipelines/pull/12635",
           "areas": [
-            "CI",
-            "Frontend",
-            "Tests",
-            "Documentation"
+            "Frontend"
           ]
         }
       ]
