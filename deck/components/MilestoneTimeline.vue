@@ -7,23 +7,23 @@ const milestones = [
   { title: 'Frontend approver', date: 'Feb 23', detail: '45 days after my first PR', pr: 12869 },
   { title: 'CI work', date: 'Jul 19', detail: 'Stabilize and speed up test lanes', pr: 13739 },
   { title: 'Project maintainer', date: 'Jul 28', detail: 'Responsibility across Pipelines', pr: 13908 },
-  { title: 'Release hardening', date: 'Oct 14', detail: 'Address fixable vulnerabilities', pr: 14865 },
+  { title: 'Security advisories', date: 'Oct 28–29', detail: 'Triaged and published with 2.18', url: 'https://github.com/kubeflow/pipelines/security/advisories', linkLabel: 'Published advisories' },
   { title: 'Today: new UI', date: 'Preview', detail: 'Separate from the stack migration', pr: 14584 },
 ]
 </script>
 
 <template>
   <ol class="milestone-timeline" :data-step="step" aria-label="My path through Kubeflow Pipelines in 2026">
-    <li v-for="(milestone, index) in milestones" :key="milestone.pr"
+    <li v-for="(milestone, index) in milestones" :key="milestone.title"
       :class="{ reached: index < step, current: index === step - 1 }"
       :aria-current="index === step - 1 ? 'step' : undefined">
       <div class="milestone-marker"><span>{{ index + 1 }}</span><time>{{ milestone.date }}</time></div>
       <h2>{{ milestone.title }}</h2>
       <p>{{ milestone.detail }}</p>
-      <a :href="`https://github.com/kubeflow/pipelines/pull/${milestone.pr}`" target="_blank" rel="noopener noreferrer">#{{ milestone.pr }}</a>
+      <a :href="milestone.url || `https://github.com/kubeflow/pipelines/pull/${milestone.pr}`" target="_blank" rel="noopener noreferrer">{{ milestone.linkLabel || `#${milestone.pr}` }}</a>
     </li>
   </ol>
-  <p v-if="step === 7" class="milestone-key">Built on droctothorpe's release automation. My focus: iterating on it and eliminating fixable vulnerabilities.</p>
+  <p v-if="step === 7" class="milestone-key">2026 · Public disclosures: October 28–29 · <a href="https://github.com/kubeflow/pipelines/releases/tag/2.18.0" target="_blank" rel="noopener noreferrer">2.18 release notes</a></p>
   <p v-else-if="step < 8" class="milestone-key">2026 · Milestones in sequence, not to time scale · <span>Current milestone</span></p>
   <p v-else class="milestone-key">2026 · Not to time scale · UI PR is open as of November 9. These screenshots are a preview.</p>
 </template>

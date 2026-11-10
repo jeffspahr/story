@@ -314,11 +314,11 @@ class: blue
 ---
 ---
 
-# Hardening releases
+# Security advisories in 2.18
 
 <MilestoneTimeline :step="7" />
 
-<!-- droctothorpe built the release automation. My work iterated on that foundation and focused on eliminating fixable vulnerabilities from releases. PR #14865 is a concrete remediation milestone, not a claim that I originated release automation or that this single PR cleared every release image: inverse-proxy remediation was deferred. -->
+<!-- Jeff's role in triaging and publishing advisories is speaker-confirmed. Public advisories were published October 28-29 UTC around the 2.18.0 release (October 28 UTC); fifteen list 2.18.0 as the patched version, while another October disclosure lists 2.17.0. Do not equate all published advisories with new 2.18 fixes or claim sole credit for reports and fixes. Sources: public GitHub advisories and 2.18.0 release notes. Separately, droctothorpe built the release automation; my work iterated on it and focused on eliminating fixable vulnerabilities. The release still documents accepted vulnerabilities and security limitations. -->
 
 ---
 ---
