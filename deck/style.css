@@ -129,4 +129,7 @@
 .annual-legend { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px 18px; font-size:14px; }
 .annual-legend span { display:flex; align-items:center; gap:7px; }
 .annual-legend i { width:12px; height:12px; flex:none; }
-.annual-stack { display:flex; flex-direction:column-reverse; width:46px; }
+.pr-group { display:flex; align-items:flex-end; gap:5px; height:205px; }
+.pr-column { width:22px; text-align:center; }
+.pr-column span { display:block; font-size:11px; margin-bottom:4px; }
+.pr-column div { width:100%; }

@@ -4,11 +4,11 @@ import data from './chart-data.json'
 const props = defineProps({ mode: { type: String, default: 'annual' } })
 const months = ['01','02','03','04','05','06','07','08','09','10']
 const series = [
-  { key: 'contributed', label: 'Contributed by me', color: '#1a5190' },
-  { key: 'reviewed', label: 'Reviewed by me', color: '#d51a87' },
+  { key: 'authored', label: 'PRs authored', color: '#1a5190' },
+  { key: 'reviewed', label: 'PRs reviewed', color: '#d51a87' },
 ]
 const chartRows = computed(() => props.mode === 'monthly' ? data.monthlyActivity : data.annual.map(row => ({ ...row, label: `${row.year}${row.year === 2026 ? '*' : ''}` })))
-const peak = computed(() => Math.max(...chartRows.value.map(row => row.total)))
+const peak = computed(() => Math.max(1, ...chartRows.value.flatMap(row => series.map(s => row[s.key]))))
 const areas = [ ['Frontend','frontend'], ['CI','ci'], ['Backend / API','backend_api'], ['SDK','sdk'], ['Deployment','deployment_release'] ]
 function count(area, month) { return data.categories.find(x => x.category === area && x.month === `2026-${month}`)?.count || 0 }
 function color(n) { return n === 0 ? '#e9edf4' : n < 3 ? '#a8c6e9' : n < 10 ? '#548cc6' : n < 30 ? '#2361a3' : '#123d7a' }
@@ -18,9 +18,8 @@ function color(n) { return n === 0 ? '#e9edf4' : n < 3 ? '#a8c6e9' : n < 10 ? '#
   <div class="annual-legend"><span v-for="s in series" :key="s.key"><i :style="{background:s.color}"></i>{{ s.label }}</span></div>
   <div class="annual-chart">
     <div v-for="row in chartRows" :key="row.label" class="annual-col">
-      <div class="annual-value">{{ row.total.toLocaleString() }}</div>
-      <div class="annual-stack" :aria-label="row.label + ': ' + series.map(s => s.label + ' ' + row[s.key]).join(', ')" role="img">
-        <div v-for="s in series" :key="s.key" :title="row.label + ' ' + s.label + ': ' + row[s.key]" :style="{height: (row[s.key] / peak * 180) + 'px', background:s.color}"></div>
+      <div class="pr-group" :aria-label="row.label + ': ' + series.map(s => s.label + ' ' + row[s.key]).join(', ')" role="img">
+        <div v-for="s in series" :key="s.key" class="pr-column" :title="row.label + ' ' + s.label + ': ' + row[s.key]"><span>{{ row[s.key] }}</span><div :style="{height: (row[s.key] / peak * 180) + 'px', background:s.color}"></div></div>
       </div>
       <div class="annual-year">{{ row.label }}</div>
     </div>

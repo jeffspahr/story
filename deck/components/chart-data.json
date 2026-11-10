@@ -2,45 +2,38 @@
   "annual": [
     {
       "year": 2020,
-      "contributed": 27,
-      "reviewed": 0,
-      "total": 27
+      "authored": 3,
+      "reviewed": 0
     },
     {
       "year": 2021,
-      "contributed": 208,
-      "reviewed": 1,
-      "total": 209
+      "authored": 4,
+      "reviewed": 1
     },
     {
       "year": 2022,
-      "contributed": 61,
-      "reviewed": 0,
-      "total": 61
+      "authored": 3,
+      "reviewed": 0
     },
     {
       "year": 2023,
-      "contributed": 65,
-      "reviewed": 1,
-      "total": 66
+      "authored": 9,
+      "reviewed": 1
     },
     {
       "year": 2024,
-      "contributed": 61,
-      "reviewed": 4,
-      "total": 65
+      "authored": 4,
+      "reviewed": 4
     },
     {
       "year": 2025,
-      "contributed": 273,
-      "reviewed": 2,
-      "total": 275
+      "authored": 4,
+      "reviewed": 2
     },
     {
       "year": 2026,
-      "contributed": 2354,
-      "reviewed": 258,
-      "total": 2612
+      "authored": 572,
+      "reviewed": 258
     }
   ],
   "categories": [
@@ -541,72 +534,62 @@
     {
       "label": "Jan",
       "year": 2026,
-      "contributed": 64,
-      "reviewed": 0,
-      "total": 64
+      "authored": 4,
+      "reviewed": 0
     },
     {
       "label": "Feb",
       "year": 2026,
-      "contributed": 210,
-      "reviewed": 12,
-      "total": 222
+      "authored": 24,
+      "reviewed": 12
     },
     {
       "label": "Mar",
       "year": 2026,
-      "contributed": 307,
-      "reviewed": 45,
-      "total": 352
+      "authored": 50,
+      "reviewed": 45
     },
     {
       "label": "Apr",
       "year": 2026,
-      "contributed": 177,
-      "reviewed": 36,
-      "total": 213
+      "authored": 18,
+      "reviewed": 36
     },
     {
       "label": "May",
       "year": 2026,
-      "contributed": 130,
-      "reviewed": 14,
-      "total": 144
+      "authored": 23,
+      "reviewed": 14
     },
     {
       "label": "Jun",
       "year": 2026,
-      "contributed": 104,
-      "reviewed": 4,
-      "total": 108
+      "authored": 11,
+      "reviewed": 4
     },
     {
       "label": "Jul",
       "year": 2026,
-      "contributed": 464,
-      "reviewed": 20,
-      "total": 484
+      "authored": 70,
+      "reviewed": 20
     },
     {
       "label": "Aug",
       "year": 2026,
-      "contributed": 223,
-      "reviewed": 19,
-      "total": 242
+      "authored": 65,
+      "reviewed": 19
     },
     {
       "label": "Sep",
       "year": 2026,
-      "contributed": 301,
-      "reviewed": 44,
-      "total": 345
+      "authored": 98,
+      "reviewed": 44
     },
     {
       "label": "Oct",
       "year": 2026,
-      "contributed": 374,
-      "reviewed": 80,
-      "total": 454
+      "authored": 209,
+      "reviewed": 80
     }
   ]
 }
