@@ -270,6 +270,16 @@ class: comic-slide
 <!-- Jeff identifies Manaswini as a key collaborator who helped plan and distribute the work. Add verified examples and specific contributor names as we research them. The blog acknowledges several contributors; it is not an exhaustive list. -->
 
 ---
+class: blue
+---
+
+# I became a reviewer<br>as much as a contributor.
+
+<p class="lead">The work started in the frontend. It grew into CI and, eventually, the whole project.</p>
+
+<!-- I became a frontend approver, then later a maintainer for the entire project. By the React 19 upgrade, I was reviewing and approving someone else's work. -->
+
+---
 ---
 
 # I became a frontend approver
@@ -287,16 +297,6 @@ class: comic-slide
 <p class="source">Kubeflow modernization blog · PR <a href="https://github.com/kubeflow/pipelines/pull/12754" target="_blank" rel="noopener noreferrer">#12754</a> · PR <a href="https://github.com/kubeflow/pipelines/pull/13153" target="_blank" rel="noopener noreferrer">#13153</a></p>
 
 <!-- Explain the high-level sequence without implying I did all the work. The React 19 PR merged March 27 and was authored by Premved Dhote. -->
-
----
-class: blue
----
-
-# I became a reviewer<br>as much as a contributor.
-
-<p class="lead">The work started in the frontend. It grew into CI and, eventually, the whole project.</p>
-
-<!-- I became a frontend approver, then later a maintainer for the entire project. By the React 19 upgrade, I was reviewing and approving someone else's work. -->
 
 ---
 ---
