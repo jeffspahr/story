@@ -29,8 +29,6 @@
 .step { flex:1; padding:20px 18px; background:#eaf1f9; border-top:4px solid #d51a87; font-size:19px; font-weight:700; }
 .step span { display:block; font-size:13px; font-weight:500; margin-top:9px; }
 .arrow { align-self:center; color:#d51a87; font-size:28px; }
-.annual-chart { display:flex; align-items:end; height:235px; gap:28px; margin:8px 0 12px; border-bottom:2px solid #c4d2df; }
-.annual-col { flex:1; text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:end; }
 .heatmap { margin-top:22px; }
 .heat-head,.heat-row { display:grid; grid-template-columns:145px repeat(10,1fr); gap:5px; align-items:center; margin-bottom:5px; }
 .heat-head span { text-align:center; font-size:12px; font-weight:700; color:#58718b; }
@@ -126,10 +124,9 @@
   border: 1px solid #c7d7e7;
 }
 
-.annual-legend { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px 18px; font-size:14px; }
-.annual-legend span { display:flex; align-items:center; gap:7px; }
-.annual-legend i { width:12px; height:12px; flex:none; }
-.pr-group { display:flex; align-items:flex-end; gap:5px; height:205px; }
-.pr-column { width:22px; text-align:center; }
-.pr-column span { display:block; font-size:11px; margin-bottom:4px; }
-.pr-column div { width:100%; }
+
+.aligned-charts { display:block; width:100%; margin:8px 0 12px; }
+.panel-name { font-size:15px; font-weight:700; }
+.panel-scale { font-size:11px; fill:#58718b; }
+.panel-value { font-size:12px; fill:var(--ink); }
+.panel-period { font-size:13px; font-weight:600; fill:var(--ink); }

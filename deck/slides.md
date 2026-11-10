@@ -282,26 +282,26 @@ class: blue
 ---
 ---
 
-# My GitHub PRs over time
+# My GitHub activity over time
 
 <ContributionCharts />
 
-<p class="tiny muted">PRs authored = PRs opened. PRs reviewed = distinct PRs reviewed within the period.<br>All repositories. *2026 through Oct 31; prior years are full years. Commits are not counted.</p>
+<p class="tiny muted">All repositories. *2026 through Oct 31; prior years are full years.<br>Separate scales and measures: a PR and its commits can both appear. Counts are not added.</p>
 <p class="source">GitHub authenticated contribution totals · refreshed Nov 9, 2026</p>
 
-<!-- PR-only grouped bars: authored means opened, reviewed uses GitHub contribution records (one PR per selected period). Includes accessible private activity in aggregate. No commits or combined totals. -->
+<!-- Separate measures preserve direct-to-branch work without adding commits to PRs. Each panel has its own labeled scale and aligned periods. Reviewed uses distinct PRs in the selected GitHub contribution period. Includes accessible private activity in aggregate. -->
 
 ---
 ---
 
-# My GitHub PRs in 2026
+# My GitHub activity in 2026
 
 <ContributionCharts mode="monthly" />
 
-<p class="tiny muted">All repositories, January–October. Commits are not counted.<br>A PR reviewed in multiple months can count in each month. Authored and reviewed counts are not added.</p>
+<p class="tiny muted">All repositories, January–October. Each panel has its own scale; counts are not added.<br>A PR reviewed in multiple months can count in each month.</p>
 <p class="source">GitHub authenticated monthly contribution totals · refreshed Nov 9, 2026</p>
 
-<!-- Monthly PR-only counts. A PR reviewed across months can count in each; monthly reviews need not sum to the annual reviewed-PR count. The chart uses its own monthly scale. -->
+<!-- Monthly commit and PR measures. A PR reviewed across months can count in each; monthly reviews need not sum to the annual reviewed-PR count. The chart uses its own monthly scale. -->
 
 ---
 class: blue

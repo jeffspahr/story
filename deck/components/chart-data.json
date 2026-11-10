@@ -2,37 +2,44 @@
   "annual": [
     {
       "year": 2020,
-      "authored": 3,
+      "commits": 24,
+      "opened": 3,
       "reviewed": 0
     },
     {
       "year": 2021,
-      "authored": 4,
+      "commits": 204,
+      "opened": 4,
       "reviewed": 1
     },
     {
       "year": 2022,
-      "authored": 3,
+      "commits": 58,
+      "opened": 3,
       "reviewed": 0
     },
     {
       "year": 2023,
-      "authored": 9,
+      "commits": 56,
+      "opened": 9,
       "reviewed": 1
     },
     {
       "year": 2024,
-      "authored": 4,
+      "commits": 57,
+      "opened": 4,
       "reviewed": 4
     },
     {
       "year": 2025,
-      "authored": 4,
+      "commits": 269,
+      "opened": 4,
       "reviewed": 2
     },
     {
       "year": 2026,
-      "authored": 572,
+      "commits": 1782,
+      "opened": 572,
       "reviewed": 258
     }
   ],
@@ -533,62 +540,62 @@
   "monthlyActivity": [
     {
       "label": "Jan",
-      "year": 2026,
-      "authored": 4,
+      "commits": 60,
+      "opened": 4,
       "reviewed": 0
     },
     {
       "label": "Feb",
-      "year": 2026,
-      "authored": 24,
+      "commits": 186,
+      "opened": 24,
       "reviewed": 12
     },
     {
       "label": "Mar",
-      "year": 2026,
-      "authored": 50,
+      "commits": 257,
+      "opened": 50,
       "reviewed": 45
     },
     {
       "label": "Apr",
-      "year": 2026,
-      "authored": 18,
+      "commits": 159,
+      "opened": 18,
       "reviewed": 36
     },
     {
       "label": "May",
-      "year": 2026,
-      "authored": 23,
+      "commits": 107,
+      "opened": 23,
       "reviewed": 14
     },
     {
       "label": "Jun",
-      "year": 2026,
-      "authored": 11,
+      "commits": 93,
+      "opened": 11,
       "reviewed": 4
     },
     {
       "label": "Jul",
-      "year": 2026,
-      "authored": 70,
+      "commits": 394,
+      "opened": 70,
       "reviewed": 20
     },
     {
       "label": "Aug",
-      "year": 2026,
-      "authored": 65,
+      "commits": 158,
+      "opened": 65,
       "reviewed": 19
     },
     {
       "label": "Sep",
-      "year": 2026,
-      "authored": 98,
+      "commits": 203,
+      "opened": 98,
       "reviewed": 44
     },
     {
       "label": "Oct",
-      "year": 2026,
-      "authored": 209,
+      "commits": 165,
+      "opened": 209,
       "reviewed": 80
     }
   ]
