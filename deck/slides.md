@@ -101,9 +101,9 @@ class: blue
 ---
 ---
 
-# Even React 16 → 17<br>needed other migrations
+# React 16 → 17<br>needed other migrations
 
-<p class="small dependency-context">Create React App was deprecated. Our tests used an Enzyme adapter for React 16.</p>
+<p class="small dependency-context">Create React App was deprecated. We had to replace our entire UI testing framework.</p>
 
 <div class="pathway dependency-chain"><div class="step">Build + tests<span>Create React App → Vite<br>Jest / Enzyme → Vitest / Testing Library<br><a href="https://github.com/kubeflow/pipelines/pull/12754" target="_blank" rel="noopener noreferrer">#12754</a></span></div><div class="arrow">→</div><div class="step">Charting dependencies<span>Replace react-vis with Recharts<br>Pin its react-redux dependency for React 17<br><a href="https://github.com/kubeflow/pipelines/pull/12829" target="_blank" rel="noopener noreferrer">#12829</a></span></div><div class="arrow">→</div><div class="step">Then React 17<span>Upgrade React and its types<br>Adjust table and graph code<br><a href="https://github.com/kubeflow/pipelines/pull/12849" target="_blank" rel="noopener noreferrer">#12849</a></span></div></div>
 
