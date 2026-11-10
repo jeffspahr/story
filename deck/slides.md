@@ -103,17 +103,36 @@ class: blue
 
 # Could I make these changes with AI tools?
 
-<p class="lead">I had to be confident enough in my changes.<br>I had to convince the maintainers to be confident enough in my changes.</p>
+<p class="lead">I had to be confident enough in my changes.<br><br>I had to convince the maintainers to be confident enough in my changes.</p>
 
-<!-- Transition to the comic about concerns over AI-written code and the realities of maintaining production software. -->
+<!-- Confidence had to come from checking the changes, not just trusting the tools. -->
 
 ---
 ---
 
-<img class="comic-illustration" src="/illustrations/ai-coding-comic.png" alt="Four-panel comic: two developers worry AI coding tools might write terrible code or introduce production bugs, while one repairs a fragile production system with gum and toothpicks." />
-<p class="comic-disclosure">Image generated with ChatGPT</p>
+# How would I know the AI-written code was good enough?
 
-<!-- Give the audience time to read the four panels. -->
+<p class="lead">I wasn't a frontend developer. I still had to stand behind the changes.</p>
+
+<!-- Human-written code doesn't come with a quality guarantee either. That doesn't lower the bar for AI. It means I needed a way to check. -->
+
+---
+class: comic-slide
+---
+
+<div class="comic-with-transition">
+  <div>
+    <img class="comic-illustration" src="/illustrations/ai-coding-comic.png" alt="Four-panel comic: two developers worry AI coding tools might write terrible code or introduce production bugs, while one repairs a fragile production system with gum and toothpicks." />
+    <p class="comic-disclosure">Image generated with ChatGPT</p>
+  </div>
+  <div class="comic-transition">
+    <p>Human-written code doesn't come with a quality guarantee either.</p>
+    <p><strong>That doesn't lower the bar for AI.</strong></p>
+    <p>It means I needed a way to check.</p>
+  </div>
+</div>
+
+<!-- Give the audience time to read the four panels. Keep this a quick aside: human-written code is not automatically good, but that is not an excuse for bad AI output. The following story explains how I checked the work through smaller changes, frontend review, tests, and screenshot comparisons. -->
 
 ---
 ---
