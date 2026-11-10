@@ -24,3 +24,19 @@ PDF output goes to exports/zero-to-maintainer.pdf. slides.md contains the revise
 - Export logs a caught FloatingVue/Twoslash tooltip patch error. The title slide renders and exports despite it; code-hover tooltip functionality remains unverified. This is an upstream dependency integration issue, not a clean browser-console result.
 
 npm may warn that install scripts need approval under its install-script policy. Chromium is installed on this machine; the explicit playwright install command above supports a fresh setup.
+
+### Timeline PR clusters
+
+Small circles show Jeff's other authored, merged `kubeflow/pipelines` PRs through November 9, 2026. Major milestone PRs are excluded from clusters. The approver summary includes all authored merges through the February 23 approver PR's exact merge timestamp (16, including milestone PRs).
+
+Each interval between milestones is divided into three time bins; empty bins are omitted. Milestone spacing itself is not proportional to time. Circle diameters use count buckets (1, 2-9, 10+), not lines changed or effort. Work-area labels summarize the existing changed-path classification and can overlap. Every PR appears in at most one cluster. Clusters reveal when the next major milestone is reached; focus/hover/click opens their public PR links, and Escape dismisses the panel.
+
+Rebuild from public GitHub data (requires `gh` and the local research classification file):
+
+```sh
+gh pr list --repo kubeflow/pipelines --author jeffspahr --state merged \
+  --search 'merged:2026-01-09..2026-11-09' --limit 1000 \
+  --json number,title,mergedAt,url > /tmp/story-timeline-prs.json
+node deck/scripts/build-timeline-clusters.mjs /tmp/story-timeline-prs.json
+node --test deck/components/timeline-clusters.test.mjs
+```

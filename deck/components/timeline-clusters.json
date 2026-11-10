@@ -1,0 +1,4295 @@
+{
+  "through": "2026-11-09",
+  "approverCount": 16,
+  "total": 404,
+  "milestoneCount": 5,
+  "clusters": [
+    {
+      "id": "0-2",
+      "gap": 0,
+      "offset": 0.75,
+      "prs": [
+        {
+          "mergedAt": "2026-01-15T03:04:24Z",
+          "number": 12636,
+          "title": "fix(frontend): stabilize E2E integration tests. Fixes #10881",
+          "url": "https://github.com/kubeflow/pipelines/pull/12636",
+          "areas": [
+            "CI",
+            "Frontend",
+            "Tests",
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1-2",
+      "gap": 1,
+      "offset": 0.75,
+      "prs": [
+        {
+          "mergedAt": "2026-02-06T04:03:21Z",
+          "number": 12756,
+          "title": "fix: resolve 6 CVEs in frontend server via ESM + k8s client upgrade",
+          "url": "https://github.com/kubeflow/pipelines/pull/12756",
+          "areas": [
+            "CI",
+            "Frontend",
+            "Tests",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-06T15:50:21Z",
+          "number": 12778,
+          "title": "fix(frontend): require podnamespace for pod logs when authz is enabled",
+          "url": "https://github.com/kubeflow/pipelines/pull/12778",
+          "areas": [
+            "Frontend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2-0",
+      "gap": 2,
+      "offset": 0.25,
+      "prs": [
+        {
+          "mergedAt": "2026-02-12T05:22:15Z",
+          "number": 12784,
+          "title": "feat: add UI smoke test tool for visual regression testing",
+          "url": "https://github.com/kubeflow/pipelines/pull/12784",
+          "areas": [
+            "Other",
+            "Frontend",
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2-1",
+      "gap": 2,
+      "offset": 0.5,
+      "prs": [
+        {
+          "mergedAt": "2026-02-15T15:18:27Z",
+          "number": 12815,
+          "title": "fix(frontend): make UIServer shutdown await socket close",
+          "url": "https://github.com/kubeflow/pipelines/pull/12815",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-15T21:03:27Z",
+          "number": 12819,
+          "title": "fix(frontend): restore initial sidenav auto-collapse behavior",
+          "url": "https://github.com/kubeflow/pipelines/pull/12819",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-15T21:08:29Z",
+          "number": 12793,
+          "title": "chore(frontend): upgrade material-ui to v4",
+          "url": "https://github.com/kubeflow/pipelines/pull/12793",
+          "areas": [
+            "CI",
+            "Frontend",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-16T14:08:37Z",
+          "number": 12831,
+          "title": "fix(ci): handle fork PR metadata in frontend e2e freshness check",
+          "url": "https://github.com/kubeflow/pipelines/pull/12831",
+          "areas": [
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-17T17:59:29Z",
+          "number": 12841,
+          "title": "chore(frontend): add jeffspahr to OWNERS reviewers",
+          "url": "https://github.com/kubeflow/pipelines/pull/12841",
+          "areas": [
+            "Frontend",
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-18T22:13:31Z",
+          "number": 12829,
+          "title": "refactor(frontend): replace react-vis with recharts",
+          "url": "https://github.com/kubeflow/pipelines/pull/12829",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2-2",
+      "gap": 2,
+      "offset": 0.75,
+      "prs": [
+        {
+          "mergedAt": "2026-02-19T15:22:32Z",
+          "number": 12849,
+          "title": "chore(frontend): bump react to 17",
+          "url": "https://github.com/kubeflow/pipelines/pull/12849",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-20T21:13:32Z",
+          "number": 12864,
+          "title": "chore(frontend): remove eslint-config-react-app",
+          "url": "https://github.com/kubeflow/pipelines/pull/12864",
+          "areas": [
+            "Frontend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-0",
+      "gap": 3,
+      "offset": 0.25,
+      "prs": [
+        {
+          "mergedAt": "2026-02-23T23:56:47Z",
+          "number": 12855,
+          "title": "test(frontend): guard PagedTable against DOM nesting warnings",
+          "url": "https://github.com/kubeflow/pipelines/pull/12855",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-24T02:19:48Z",
+          "number": 12858,
+          "title": "fix(frontend): upgrade re-resizable to clear legacy lifecycle warning",
+          "url": "https://github.com/kubeflow/pipelines/pull/12858",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-25T21:16:05Z",
+          "number": 12911,
+          "title": "chore(test): add jeffspahr to test OWNERS approvers",
+          "url": "https://github.com/kubeflow/pipelines/pull/12911",
+          "areas": [
+            "Tests",
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-26T00:04:05Z",
+          "number": 12881,
+          "title": "chore(frontend): add React peer compatibility gate",
+          "url": "https://github.com/kubeflow/pipelines/pull/12881",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-26T13:40:06Z",
+          "number": 12872,
+          "title": "chore(frontend): remove dead deps request, coveralls, swagger-ts-client",
+          "url": "https://github.com/kubeflow/pipelines/pull/12872",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-02-26T16:13:09Z",
+          "number": 12856,
+          "title": "test(frontend): remove snapshot-diff and react-dom test-utils usage",
+          "url": "https://github.com/kubeflow/pipelines/pull/12856",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-02T19:43:05Z",
+          "number": 12925,
+          "title": "[frontend] Migrate Material UI v4 to MUI v5",
+          "url": "https://github.com/kubeflow/pipelines/pull/12925",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-02T21:43:08Z",
+          "number": 12950,
+          "title": "docs(frontend): refresh React 18/19 upgrade checklist status",
+          "url": "https://github.com/kubeflow/pipelines/pull/12950",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-05T02:33:07Z",
+          "number": 12817,
+          "title": "feat(frontend): migrate API codegen to OpenAPI Generator",
+          "url": "https://github.com/kubeflow/pipelines/pull/12817",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-06T16:09:09Z",
+          "number": 12915,
+          "title": "test(e2e): migrate frontend integration tests to WDIO v9 and expand coverage",
+          "url": "https://github.com/kubeflow/pipelines/pull/12915",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-10T02:42:16Z",
+          "number": 12976,
+          "title": "fix(frontend): remove CVE-2026-3449 from ui server",
+          "url": "https://github.com/kubeflow/pipelines/pull/12976",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-10T09:19:33Z",
+          "number": 12985,
+          "title": "fix(frontend): replace comma operators in ArtifactList test",
+          "url": "https://github.com/kubeflow/pipelines/pull/12985",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-10T18:21:57Z",
+          "number": 13006,
+          "title": "docs(frontend): refresh React upgrade checklist status",
+          "url": "https://github.com/kubeflow/pipelines/pull/13006",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-11T17:30:12Z",
+          "number": 12997,
+          "title": "chore(frontend): migrate server lint to eslint and fix artifact domain matching",
+          "url": "https://github.com/kubeflow/pipelines/pull/12997",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-14T21:25:02Z",
+          "number": 13023,
+          "title": "docs(frontend): refresh React upgrade checklist and rescope #7",
+          "url": "https://github.com/kubeflow/pipelines/pull/13023",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-18T21:27:26Z",
+          "number": 13062,
+          "title": "fix(frontend): restore sidebar nav button styling",
+          "url": "https://github.com/kubeflow/pipelines/pull/13062",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-19T03:26:25Z",
+          "number": 13073,
+          "title": "docs(frontend): refresh React 18/19 upgrade checklist",
+          "url": "https://github.com/kubeflow/pipelines/pull/13073",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-19T03:36:26Z",
+          "number": 13071,
+          "title": "docs(frontend): fix generated pipeline spec outputs",
+          "url": "https://github.com/kubeflow/pipelines/pull/13071",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-19T14:33:27Z",
+          "number": 13077,
+          "title": "test(frontend): finish React 18 cleanup follow-up",
+          "url": "https://github.com/kubeflow/pipelines/pull/13077",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-20T01:18:28Z",
+          "number": 13081,
+          "title": "docs(frontend): refresh React upgrade checklist after React 18.3",
+          "url": "https://github.com/kubeflow/pipelines/pull/13081",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-20T18:05:36Z",
+          "number": 13082,
+          "title": "chore(frontend): clear React 19 peer blockers",
+          "url": "https://github.com/kubeflow/pipelines/pull/13082",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-22T09:47:03Z",
+          "number": 13091,
+          "title": "docs(frontend): refresh React upgrade checklist after #13082",
+          "url": "https://github.com/kubeflow/pipelines/pull/13091",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-25T01:20:41Z",
+          "number": 13101,
+          "title": "chore(frontend): align node version consumers with frontend/.nvmrc",
+          "url": "https://github.com/kubeflow/pipelines/pull/13101",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-25T01:38:41Z",
+          "number": 13100,
+          "title": "Reduce effect-driven state handling in frontend pages",
+          "url": "https://github.com/kubeflow/pipelines/pull/13100",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-27T14:30:52Z",
+          "number": 13140,
+          "title": "refactor(frontend): reduce NewRunV2 effect state handling",
+          "url": "https://github.com/kubeflow/pipelines/pull/13140",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-27T14:44:55Z",
+          "number": 13112,
+          "title": "fix(sdk): support .after() dependencies on ExitHandler groups",
+          "url": "https://github.com/kubeflow/pipelines/pull/13112",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-30T15:42:39Z",
+          "number": 13172,
+          "title": "fix(ci): keep Tide-required contexts green on label churn",
+          "url": "https://github.com/kubeflow/pipelines/pull/13172",
+          "areas": [
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-30T17:34:06Z",
+          "number": 13166,
+          "title": "refactor(frontend): reduce NewRun effect syncing",
+          "url": "https://github.com/kubeflow/pipelines/pull/13166",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-03-30T17:35:05Z",
+          "number": 13165,
+          "title": "refactor(frontend): derive CompareV2 artifact state",
+          "url": "https://github.com/kubeflow/pipelines/pull/13165",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-01T07:36:05Z",
+          "number": 13157,
+          "title": "chore(frontend): deduplicate generated OpenAPI runtime and model files",
+          "url": "https://github.com/kubeflow/pipelines/pull/13157",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-03T17:55:06Z",
+          "number": 13167,
+          "title": "test(frontend): add literal input frontend integration test",
+          "url": "https://github.com/kubeflow/pipelines/pull/13167",
+          "areas": [
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-03T17:56:08Z",
+          "number": 13190,
+          "title": "refactor(frontend): derive CompareV2 artifact selection",
+          "url": "https://github.com/kubeflow/pipelines/pull/13190",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-07T13:46:18Z",
+          "number": 13207,
+          "title": "fix(ci): gate ci-passed on real CI poll completion",
+          "url": "https://github.com/kubeflow/pipelines/pull/13207",
+          "areas": [
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-07T13:49:18Z",
+          "number": 13208,
+          "title": "refactor(frontend): reduce NewRun prop syncing",
+          "url": "https://github.com/kubeflow/pipelines/pull/13208",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-07T13:50:18Z",
+          "number": 13210,
+          "title": "docs(frontend): document frontend coding conventions. Closes #5118",
+          "url": "https://github.com/kubeflow/pipelines/pull/13210",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-07T13:51:17Z",
+          "number": 13212,
+          "title": "fix(frontend): prevent run details spinner on template refetch",
+          "url": "https://github.com/kubeflow/pipelines/pull/13212",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-07T18:24:18Z",
+          "number": 13164,
+          "title": "docs(frontend): refresh React 19 stack guidance",
+          "url": "https://github.com/kubeflow/pipelines/pull/13164",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-10T14:51:19Z",
+          "number": 13231,
+          "title": "refactor(frontend): narrow NewRun parameter init effect",
+          "url": "https://github.com/kubeflow/pipelines/pull/13231",
+          "areas": [
+            "Frontend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-1",
+      "gap": 3,
+      "offset": 0.5,
+      "prs": [
+        {
+          "mergedAt": "2026-04-15T11:48:51Z",
+          "number": 13266,
+          "title": "test(frontend): clear CustomTable act warnings",
+          "url": "https://github.com/kubeflow/pipelines/pull/13266",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-15T14:20:51Z",
+          "number": 13256,
+          "title": "refactor(frontend): simplify CompareV2 selection state",
+          "url": "https://github.com/kubeflow/pipelines/pull/13256",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-15T16:16:51Z",
+          "number": 13204,
+          "title": "ci: validate and declare Argo 4.0 compatibility",
+          "url": "https://github.com/kubeflow/pipelines/pull/13204",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-16T12:05:52Z",
+          "number": 13264,
+          "title": "fix(frontend): remove React 19 compatibility shim",
+          "url": "https://github.com/kubeflow/pipelines/pull/13264",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-17T19:20:49Z",
+          "number": 13227,
+          "title": "ci: preload Kind images instead of pushing via local registry",
+          "url": "https://github.com/kubeflow/pipelines/pull/13227",
+          "areas": [
+            "CI",
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-18T12:14:24Z",
+          "number": 13265,
+          "title": "fix(frontend): add mock backend route regression coverage",
+          "url": "https://github.com/kubeflow/pipelines/pull/13265",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-21T11:52:27Z",
+          "number": 13282,
+          "title": "refactor(frontend): narrow compare metrics effect cleanup",
+          "url": "https://github.com/kubeflow/pipelines/pull/13282",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-23T17:01:31Z",
+          "number": 13281,
+          "title": "refactor(frontend): remove NewRunParameters mount effect",
+          "url": "https://github.com/kubeflow/pipelines/pull/13281",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-04-27T21:00:53Z",
+          "number": 13319,
+          "title": "test(api): stabilize archive run state check",
+          "url": "https://github.com/kubeflow/pipelines/pull/13319",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-08T06:15:28Z",
+          "number": 13358,
+          "title": "test(frontend): wrap router navigation in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13358",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-15T08:04:12Z",
+          "number": 13368,
+          "title": "test(frontend): flush small pipeline tests in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13368",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-15T08:05:19Z",
+          "number": 13367,
+          "title": "test(frontend): flush MetricsVisualizations updates in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13367",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-15T08:08:33Z",
+          "number": 13366,
+          "title": "test(frontend): flush MetricsDropdown setup in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13366",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-15T16:51:22Z",
+          "number": 13360,
+          "title": "test(frontend): flush CompareV2 setup in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13360",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-19T15:28:03Z",
+          "number": 13365,
+          "title": "test(frontend): flush Tensorboard updates in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13365",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-19T15:36:41Z",
+          "number": 13363,
+          "title": "test(frontend): flush RunList setup in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13363",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-19T15:39:14Z",
+          "number": 13364,
+          "title": "test(frontend): flush NewExperiment setup in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13364",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-19T15:44:06Z",
+          "number": 13362,
+          "title": "test(frontend): flush Compare setup in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13362",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-19T15:45:23Z",
+          "number": 13361,
+          "title": "test(frontend): flush CompareV1 setup in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13361",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-05-29T20:03:14Z",
+          "number": 13379,
+          "title": "Return to recurring runs after canceling creation",
+          "url": "https://github.com/kubeflow/pipelines/pull/13379",
+          "areas": [
+            "Frontend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-2",
+      "gap": 3,
+      "offset": 0.75,
+      "prs": [
+        {
+          "mergedAt": "2026-06-01T01:55:13Z",
+          "number": 13454,
+          "title": "ci: stabilize SeaweedFS resource requests",
+          "url": "https://github.com/kubeflow/pipelines/pull/13454",
+          "areas": [
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-01T12:42:33Z",
+          "number": 13458,
+          "title": "chore(ci): rotate tested Kubernetes versions",
+          "url": "https://github.com/kubeflow/pipelines/pull/13458",
+          "areas": [
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-03T07:21:01Z",
+          "number": 13411,
+          "title": "test(frontend): flush PipelineList updates in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13411",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-18T13:11:09Z",
+          "number": 13414,
+          "title": "test(frontend): flush PipelineDetails switch setup in act",
+          "url": "https://github.com/kubeflow/pipelines/pull/13414",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-18T13:54:25Z",
+          "number": 13415,
+          "title": "test(frontend): use act helpers in small viewer tests",
+          "url": "https://github.com/kubeflow/pipelines/pull/13415",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-18T13:55:46Z",
+          "number": 13412,
+          "title": "test(frontend): use act helpers in NewPipelineVersion",
+          "url": "https://github.com/kubeflow/pipelines/pull/13412",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-18T16:36:56Z",
+          "number": 13377,
+          "title": "Fix local proxy log and artifact reads",
+          "url": "https://github.com/kubeflow/pipelines/pull/13377",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-18T17:38:40Z",
+          "number": 13459,
+          "title": "chore(ci): support argo workflows 4.x",
+          "url": "https://github.com/kubeflow/pipelines/pull/13459",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-18T20:30:56Z",
+          "number": 13553,
+          "title": "chore(frontend): pin npm 11.17.0",
+          "url": "https://github.com/kubeflow/pipelines/pull/13553",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-29T22:01:35Z",
+          "number": 13568,
+          "title": "chore(frontend): consolidate dependency updates",
+          "url": "https://github.com/kubeflow/pipelines/pull/13568",
+          "areas": [
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-30T15:31:40Z",
+          "number": 13577,
+          "title": "fix(backend): stream bounded object store reads",
+          "url": "https://github.com/kubeflow/pipelines/pull/13577",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-06-30T16:20:51Z",
+          "number": 13612,
+          "title": "Add jeffspahr as an approver to .github",
+          "url": "https://github.com/kubeflow/pipelines/pull/13612",
+          "areas": [
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-01T12:36:00Z",
+          "number": 13616,
+          "title": "fix(frontend): hide read-only graph handles",
+          "url": "https://github.com/kubeflow/pipelines/pull/13616",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-01T16:10:48Z",
+          "number": 13555,
+          "title": "test(backend): cover Argo 4 runtime compatibility",
+          "url": "https://github.com/kubeflow/pipelines/pull/13555",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-01T16:15:23Z",
+          "number": 13413,
+          "title": "Add v2 mock backend fixtures",
+          "url": "https://github.com/kubeflow/pipelines/pull/13413",
+          "areas": [
+            "Frontend",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-02T19:43:26Z",
+          "number": 13626,
+          "title": "fix(frontend): remediate npm security alerts",
+          "url": "https://github.com/kubeflow/pipelines/pull/13626",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-04T23:36:56Z",
+          "number": 13598,
+          "title": "test(backend): avoid retrying permanent archived log errors",
+          "url": "https://github.com/kubeflow/pipelines/pull/13598",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-04T23:39:20Z",
+          "number": 13625,
+          "title": "ci: preload runtime base images once per workflow",
+          "url": "https://github.com/kubeflow/pipelines/pull/13625",
+          "areas": [
+            "CI",
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-04T23:40:43Z",
+          "number": 13635,
+          "title": "fix(test): poll ListPipelineVersions when verifying uploaded tags",
+          "url": "https://github.com/kubeflow/pipelines/pull/13635",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-06T20:56:11Z",
+          "number": 13627,
+          "title": "fix(backend): avoid stale final-state labels on retry",
+          "url": "https://github.com/kubeflow/pipelines/pull/13627",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-07T04:07:17Z",
+          "number": 13632,
+          "title": "fix(test): update frontend integration npm deps",
+          "url": "https://github.com/kubeflow/pipelines/pull/13632",
+          "areas": [
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-07T04:08:38Z",
+          "number": 13633,
+          "title": "fix(deps): update compatible Python security requirements",
+          "url": "https://github.com/kubeflow/pipelines/pull/13633",
+          "areas": [
+            "Backend / API",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-07T04:09:59Z",
+          "number": 13638,
+          "title": "chore(deps): update nested Go grpc dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/13638",
+          "areas": [
+            "SDK",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-07T18:44:20Z",
+          "number": 13661,
+          "title": "chore(deps): update requests constraints",
+          "url": "https://github.com/kubeflow/pipelines/pull/13661",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-07T18:52:08Z",
+          "number": 13660,
+          "title": "chore(deps): update urllib3 constraints",
+          "url": "https://github.com/kubeflow/pipelines/pull/13660",
+          "areas": [
+            "Project maintenance",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-08T02:20:51Z",
+          "number": 13668,
+          "title": "chore(deps): update visualization dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/13668",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-08T02:22:12Z",
+          "number": 13669,
+          "title": "chore(deps): update pytest dev requirements",
+          "url": "https://github.com/kubeflow/pipelines/pull/13669",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-08T02:23:33Z",
+          "number": 13671,
+          "title": "chore(deps): update metadata-writer protobuf",
+          "url": "https://github.com/kubeflow/pipelines/pull/13671",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-08T22:13:44Z",
+          "number": 13691,
+          "title": "ci: retry build dependency downloads",
+          "url": "https://github.com/kubeflow/pipelines/pull/13691",
+          "areas": [
+            "CI",
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-09T14:45:01Z",
+          "number": 13686,
+          "title": "fix(manifests): raise SeaweedFS CPU request and add failure diagnostics",
+          "url": "https://github.com/kubeflow/pipelines/pull/13686",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-09T15:47:39Z",
+          "number": 13655,
+          "title": "ci: stop fail-fast from cancelling image builds and their retries",
+          "url": "https://github.com/kubeflow/pipelines/pull/13655",
+          "areas": [
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-09T18:01:22Z",
+          "number": 13699,
+          "title": "fix(backend): make MLflow experiment/run creation idempotently retryable",
+          "url": "https://github.com/kubeflow/pipelines/pull/13699",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-10T19:54:05Z",
+          "number": 13693,
+          "title": "ci: give legacy v2 integration tests an intentional time budget",
+          "url": "https://github.com/kubeflow/pipelines/pull/13693",
+          "areas": [
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-10T20:07:48Z",
+          "number": 13656,
+          "title": "fix(backend): fall back to direct module fetch on Go proxy errors",
+          "url": "https://github.com/kubeflow/pipelines/pull/13656",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-11T11:09:23Z",
+          "number": 13697,
+          "title": "ci: authenticate googleapis proto fetches to avoid 429 rate limits",
+          "url": "https://github.com/kubeflow/pipelines/pull/13697",
+          "areas": [
+            "CI",
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-13T16:39:14Z",
+          "number": 13702,
+          "title": "fix(backend): retry idempotent MLflow read/update calls on transient timeouts",
+          "url": "https://github.com/kubeflow/pipelines/pull/13702",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T02:11:38Z",
+          "number": 13706,
+          "title": "ci(e2e): capture ClusterIP dataplane and accept-queue diagnostics",
+          "url": "https://github.com/kubeflow/pipelines/pull/13706",
+          "areas": [
+            "CI",
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T02:12:54Z",
+          "number": 13695,
+          "title": "test: authenticate and retry raw.githubusercontent.com URL verification",
+          "url": "https://github.com/kubeflow/pipelines/pull/13695",
+          "areas": [
+            "CI",
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T02:14:11Z",
+          "number": 13714,
+          "title": "test(backend): stop TerminateRun assertions racing on the transient terminating state (v1 + v2)",
+          "url": "https://github.com/kubeflow/pipelines/pull/13714",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T02:40:26Z",
+          "number": 13701,
+          "title": "ci: dump pod state when multi-user readiness waits time out",
+          "url": "https://github.com/kubeflow/pipelines/pull/13701",
+          "areas": [
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T02:58:43Z",
+          "number": 13715,
+          "title": "ci: add runner telemetry, failure-signature summary, and Kind log export",
+          "url": "https://github.com/kubeflow/pipelines/pull/13715",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T03:00:00Z",
+          "number": 13716,
+          "title": "ci: add scheduled CI health report for lane and per-test flake trends",
+          "url": "https://github.com/kubeflow/pipelines/pull/13716",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T04:09:45Z",
+          "number": 13641,
+          "title": "ci: run SDK unit tests in parallel with pytest-xdist",
+          "url": "https://github.com/kubeflow/pipelines/pull/13641",
+          "areas": [
+            "CI",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T04:12:18Z",
+          "number": 13642,
+          "title": "ci: isolate pip caches by workflow dependency set",
+          "url": "https://github.com/kubeflow/pipelines/pull/13642",
+          "areas": [
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T04:28:48Z",
+          "number": 13720,
+          "title": "ci: limit Kubernetes-auth MLflow parallelism",
+          "url": "https://github.com/kubeflow/pipelines/pull/13720",
+          "areas": [
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T04:56:56Z",
+          "number": 13643,
+          "title": "ci: cache Go modules and build artifacts in test lanes",
+          "url": "https://github.com/kubeflow/pipelines/pull/13643",
+          "areas": [
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T13:26:47Z",
+          "number": 13726,
+          "title": "ci: capture service state on connection failures",
+          "url": "https://github.com/kubeflow/pipelines/pull/13726",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-15T13:28:03Z",
+          "number": 13728,
+          "title": "fix(ci): wait for delayed test readiness",
+          "url": "https://github.com/kubeflow/pipelines/pull/13728",
+          "areas": [
+            "CI",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-16T02:36:41Z",
+          "number": 13730,
+          "title": "ci: retry Buildx bootstrap in image builds",
+          "url": "https://github.com/kubeflow/pipelines/pull/13730",
+          "areas": [
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-16T02:39:36Z",
+          "number": 13727,
+          "title": "ci: mirror observability output to logs and fix conntrack self-match",
+          "url": "https://github.com/kubeflow/pipelines/pull/13727",
+          "areas": [
+            "Project maintenance",
+            "CI"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-16T04:03:23Z",
+          "number": 13737,
+          "title": "ci: capture service SNAT path counters",
+          "url": "https://github.com/kubeflow/pipelines/pull/13737",
+          "areas": [
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-16T21:58:44Z",
+          "number": 13640,
+          "title": "ci: cache runtime base images across workflow runs",
+          "url": "https://github.com/kubeflow/pipelines/pull/13640",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4-0",
+      "gap": 4,
+      "offset": 0.25,
+      "prs": [
+        {
+          "mergedAt": "2026-07-19T14:16:17Z",
+          "number": 13752,
+          "title": "chore(deps): update Go dependencies with client-go compatibility fix",
+          "url": "https://github.com/kubeflow/pipelines/pull/13752",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-20T15:00:14Z",
+          "number": 13760,
+          "title": "ci: harden SDK and v1 integration tests",
+          "url": "https://github.com/kubeflow/pipelines/pull/13760",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-21T16:11:29Z",
+          "number": 13770,
+          "title": "ci: harden image artifact readiness and API retries",
+          "url": "https://github.com/kubeflow/pipelines/pull/13770",
+          "areas": [
+            "Project maintenance",
+            "CI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4-1",
+      "gap": 4,
+      "offset": 0.5,
+      "prs": [
+        {
+          "mergedAt": "2026-07-23T01:37:07Z",
+          "number": 13783,
+          "title": "fix(ci): make SDK docs requirements Dependabot-compatible",
+          "url": "https://github.com/kubeflow/pipelines/pull/13783",
+          "areas": [
+            "Other",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-23T01:38:29Z",
+          "number": 13777,
+          "title": "ci: avoid cancelled meta-check rollups",
+          "url": "https://github.com/kubeflow/pipelines/pull/13777",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-23T12:43:48Z",
+          "number": 13784,
+          "title": "ci: retry BuildKit and Kind tool downloads",
+          "url": "https://github.com/kubeflow/pipelines/pull/13784",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-23T13:01:04Z",
+          "number": 13785,
+          "title": "ci: retry artifact uploads and Modelcar fixture builds",
+          "url": "https://github.com/kubeflow/pipelines/pull/13785",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4-2",
+      "gap": 4,
+      "offset": 0.75,
+      "prs": [
+        {
+          "mergedAt": "2026-07-25T11:49:21Z",
+          "number": 13830,
+          "title": "chore(deps): enable repository-wide Docker updates",
+          "url": "https://github.com/kubeflow/pipelines/pull/13830",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-26T03:43:54Z",
+          "number": 13800,
+          "title": "ci: retry artifact downloads and preload deployment images",
+          "url": "https://github.com/kubeflow/pipelines/pull/13800",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-26T03:45:24Z",
+          "number": 13818,
+          "title": "fix(deps): patch pyasn1 Python locks",
+          "url": "https://github.com/kubeflow/pipelines/pull/13818",
+          "areas": [
+            "Backend / API",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-26T03:46:54Z",
+          "number": 13825,
+          "title": "chore(deps): apply frontend security fixes with ESLint 9",
+          "url": "https://github.com/kubeflow/pipelines/pull/13825",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-26T16:01:09Z",
+          "number": 13855,
+          "title": "chore(test): remove obsolete image builder workflows",
+          "url": "https://github.com/kubeflow/pipelines/pull/13855",
+          "areas": [
+            "Build tooling",
+            "Samples / components",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-26T16:40:36Z",
+          "number": 13866,
+          "title": "fix(deps): update visualization Pillow pin",
+          "url": "https://github.com/kubeflow/pipelines/pull/13866",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-26T19:32:57Z",
+          "number": 13872,
+          "title": "chore(deps): coordinate Argo version updates",
+          "url": "https://github.com/kubeflow/pipelines/pull/13872",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-26T19:41:13Z",
+          "number": 13875,
+          "title": "fix(deps): resolve remaining npm security alerts",
+          "url": "https://github.com/kubeflow/pipelines/pull/13875",
+          "areas": [
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-27T03:51:47Z",
+          "number": 13854,
+          "title": "ci: avoid BuildKit bootstrap for manifest creation",
+          "url": "https://github.com/kubeflow/pipelines/pull/13854",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-07-27T03:53:12Z",
+          "number": 13856,
+          "title": "test(backend): stabilize pipeline version filter check",
+          "url": "https://github.com/kubeflow/pipelines/pull/13856",
+          "areas": [
+            "Backend / API"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-0",
+      "gap": 5,
+      "offset": 0.25,
+      "prs": [
+        {
+          "mergedAt": "2026-08-04T16:36:19Z",
+          "number": 13562,
+          "title": "fix(backend) stream metrics artifact extraction",
+          "url": "https://github.com/kubeflow/pipelines/pull/13562",
+          "areas": [
+            "Documentation",
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-04T18:10:18Z",
+          "number": 13833,
+          "title": "chore(frontend): migrate to ESLint 10 and adopt React Hooks 7 rules",
+          "url": "https://github.com/kubeflow/pipelines/pull/13833",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-05T11:35:12Z",
+          "number": 13869,
+          "title": "chore(release): remove obsolete hosted image tagging",
+          "url": "https://github.com/kubeflow/pipelines/pull/13869",
+          "areas": [
+            "Deployment / releases",
+            "Tests",
+            "Build tooling",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-05T11:36:23Z",
+          "number": 13865,
+          "title": "fix(ci): constrain fastjsonschema on Python 3.9",
+          "url": "https://github.com/kubeflow/pipelines/pull/13865",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-05T17:46:45Z",
+          "number": 13970,
+          "title": "fix(proxy): install Python dependencies in virtualenv",
+          "url": "https://github.com/kubeflow/pipelines/pull/13970",
+          "areas": [
+            "Other"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-11T10:32:47Z",
+          "number": 13980,
+          "title": "fix(deps): update brace-expansion to 5.0.9",
+          "url": "https://github.com/kubeflow/pipelines/pull/13980",
+          "areas": [
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-11T10:37:44Z",
+          "number": 13677,
+          "title": "fix(frontend): harden artifact request handling",
+          "url": "https://github.com/kubeflow/pipelines/pull/13677",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-11T18:12:55Z",
+          "number": 14006,
+          "title": "ci: derive generator tool versions from modules",
+          "url": "https://github.com/kubeflow/pipelines/pull/14006",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-11T20:33:10Z",
+          "number": 13979,
+          "title": "feat(ci): migrate vulnerability scanning to OSV",
+          "url": "https://github.com/kubeflow/pipelines/pull/13979",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-12T01:45:59Z",
+          "number": 14018,
+          "title": "fix(ci): upgrade OSV Scanner and deduplicate SARIF results",
+          "url": "https://github.com/kubeflow/pipelines/pull/14018",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-17T23:55:08Z",
+          "number": 13681,
+          "title": "fix(backend): avoid logging secret references",
+          "url": "https://github.com/kubeflow/pipelines/pull/13681",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-18T01:20:42Z",
+          "number": 14019,
+          "title": "ci: add full Dependabot coverage",
+          "url": "https://github.com/kubeflow/pipelines/pull/14019",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-18T01:46:35Z",
+          "number": 13974,
+          "title": "ci: wait for active image producers",
+          "url": "https://github.com/kubeflow/pipelines/pull/13974",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-18T12:45:37Z",
+          "number": 14021,
+          "title": "fix(ci): enforce repository Python syntax",
+          "url": "https://github.com/kubeflow/pipelines/pull/14021",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Samples / components"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-18T18:10:44Z",
+          "number": 14017,
+          "title": "ci: auto-regenerate Dependabot generated files",
+          "url": "https://github.com/kubeflow/pipelines/pull/14017",
+          "areas": [
+            "Other",
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-18T18:14:56Z",
+          "number": 13879,
+          "title": "ci: harden external image dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/13879",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-20T10:03:45Z",
+          "number": 14088,
+          "title": "chore(deps): bump @xyflow/react to 12.11.3",
+          "url": "https://github.com/kubeflow/pipelines/pull/14088",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-20T10:05:15Z",
+          "number": 14089,
+          "title": "chore(deps): move frontend TypeScript to 6.0.3",
+          "url": "https://github.com/kubeflow/pipelines/pull/14089",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-24T17:22:40Z",
+          "number": 14090,
+          "title": "chore(ci): group @mui updates in one Dependabot PR",
+          "url": "https://github.com/kubeflow/pipelines/pull/14090",
+          "areas": [
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-24T17:24:01Z",
+          "number": 14103,
+          "title": "test(ci): stop pinning action versions in workflow assertions",
+          "url": "https://github.com/kubeflow/pipelines/pull/14103",
+          "areas": [
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-24T17:25:30Z",
+          "number": 14141,
+          "title": "feat(deployment): upgrade Argo Workflows to v4.1",
+          "url": "https://github.com/kubeflow/pipelines/pull/14141",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-24T18:54:38Z",
+          "number": 14091,
+          "title": "fix(ci): ignore generator version stamps and drop Dependabot auto-push",
+          "url": "https://github.com/kubeflow/pipelines/pull/14091",
+          "areas": [
+            "Other",
+            "CI",
+            "Project maintenance",
+            "Build tooling",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-26T13:03:04Z",
+          "number": 14163,
+          "title": "chore(deps): update Go dependencies and Golang 1.27",
+          "url": "https://github.com/kubeflow/pipelines/pull/14163",
+          "areas": [
+            "Backend / API",
+            "Documentation",
+            "SDK",
+            "Tests",
+            "Build tooling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-1",
+      "gap": 5,
+      "offset": 0.5,
+      "prs": [
+        {
+          "mergedAt": "2026-08-31T15:22:02Z",
+          "number": 14144,
+          "title": "fix(frontend): adapt decodeCompressedNodes to pako 3",
+          "url": "https://github.com/kubeflow/pipelines/pull/14144",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-08-31T15:23:32Z",
+          "number": 14145,
+          "title": "fix(frontend): import produce as a named export for immer 11",
+          "url": "https://github.com/kubeflow/pipelines/pull/14145",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-01T09:39:44Z",
+          "number": 14224,
+          "title": "fix(frontend): supply DataTransfer items for react-dropzone 20",
+          "url": "https://github.com/kubeflow/pipelines/pull/14224",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-01T09:52:38Z",
+          "number": 14146,
+          "title": "fix(frontend): narrow js-yaml load results for js-yaml 5",
+          "url": "https://github.com/kubeflow/pipelines/pull/14146",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-01T09:54:08Z",
+          "number": 14159,
+          "title": "chore(frontend): upgrade markdown-to-jsx to v9",
+          "url": "https://github.com/kubeflow/pipelines/pull/14159",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-01T12:14:05Z",
+          "number": 14162,
+          "title": "chore(deps): bump http-proxy-middleware to v4.2.0",
+          "url": "https://github.com/kubeflow/pipelines/pull/14162",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-06T14:43:12Z",
+          "number": 14240,
+          "title": "fix(apiserver): prevent stale workflow reports from overwriting cancellation",
+          "url": "https://github.com/kubeflow/pipelines/pull/14240",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-06T14:55:30Z",
+          "number": 14249,
+          "title": "fix: harden dependency update validation and auto-merge safety",
+          "url": "https://github.com/kubeflow/pipelines/pull/14249",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Other",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-06T16:21:58Z",
+          "number": 14271,
+          "title": "chore(build): align Go toolchains and update grouped dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/14271",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Build tooling",
+            "Backend / API",
+            "SDK",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-07T01:01:07Z",
+          "number": 14303,
+          "title": "fix(build): preserve API generator tools during dependency updates",
+          "url": "https://github.com/kubeflow/pipelines/pull/14303",
+          "areas": [
+            "Project maintenance",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-07T15:56:51Z",
+          "number": 14306,
+          "title": "fix(frontend): remediate dependency vulnerabilities",
+          "url": "https://github.com/kubeflow/pipelines/pull/14306",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-08T02:41:46Z",
+          "number": 14323,
+          "title": "test(frontend): fix Strict Mode error mocks and run integration dependency checks once",
+          "url": "https://github.com/kubeflow/pipelines/pull/14323",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-08T02:43:16Z",
+          "number": 14324,
+          "title": "fix(frontend): declare graph node fields for @types/dagre 0.7.54",
+          "url": "https://github.com/kubeflow/pipelines/pull/14324",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-09T19:08:51Z",
+          "number": 14350,
+          "title": "fix(ci): isolate protobuf installation from third-party apt sources",
+          "url": "https://github.com/kubeflow/pipelines/pull/14350",
+          "areas": [
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-09T19:51:45Z",
+          "number": 14346,
+          "title": "fix(frontend): harden TensorBoard proxy signing secret",
+          "url": "https://github.com/kubeflow/pipelines/pull/14346",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-09T23:41:19Z",
+          "number": 14352,
+          "title": "fix(backend): authorize shared pipeline uploads",
+          "url": "https://github.com/kubeflow/pipelines/pull/14352",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-10T17:26:11Z",
+          "number": 14359,
+          "title": "fix(backend): isolate legacy execution cache by namespace",
+          "url": "https://github.com/kubeflow/pipelines/pull/14359",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-10T22:37:39Z",
+          "number": 14361,
+          "title": "fix(ci): validate pinned Go image versions",
+          "url": "https://github.com/kubeflow/pipelines/pull/14361",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-14T12:20:38Z",
+          "number": 14392,
+          "title": "fix(release): prepare 2.18 stabilization before MLMD removal",
+          "url": "https://github.com/kubeflow/pipelines/pull/14392",
+          "areas": [
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "SDK",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-16T02:45:54Z",
+          "number": 14416,
+          "title": "chore(frontend): upgrade runtypes to 7.0.5. Fixes #14309",
+          "url": "https://github.com/kubeflow/pipelines/pull/14416",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-16T02:47:19Z",
+          "number": 14417,
+          "title": "chore(frontend): upgrade React Router to v8",
+          "url": "https://github.com/kubeflow/pipelines/pull/14417",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-16T03:59:19Z",
+          "number": 14426,
+          "title": "fix(ci): load contributor report from trusted workflow revision",
+          "url": "https://github.com/kubeflow/pipelines/pull/14426",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-16T04:11:44Z",
+          "number": 14405,
+          "title": "fix(ci): restrict 2.18 deployment tests to MySQL",
+          "url": "https://github.com/kubeflow/pipelines/pull/14405",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-22T03:32:20Z",
+          "number": 14429,
+          "title": "fix(test): avoid stale toolbar element in literal-input navigation",
+          "url": "https://github.com/kubeflow/pipelines/pull/14429",
+          "areas": [
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-23T18:07:35Z",
+          "number": 14490,
+          "title": "fix(frontend): restore top border in label-free artifact tables",
+          "url": "https://github.com/kubeflow/pipelines/pull/14490",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-25T18:20:51Z",
+          "number": 14528,
+          "title": "build(backend): remove unused Google Cloud CLI",
+          "url": "https://github.com/kubeflow/pipelines/pull/14528",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-25T18:22:17Z",
+          "number": 14521,
+          "title": "fix(ci): hold uv updates and synchronize security dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/14521",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "SDK",
+            "Build tooling",
+            "Other"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-25T21:30:59Z",
+          "number": 14535,
+          "title": "feat(sdk): require Python 3.11 or later. Fixes #14534",
+          "url": "https://github.com/kubeflow/pipelines/pull/14535",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Backend / API",
+            "Documentation",
+            "Samples / components",
+            "Frontend",
+            "SDK",
+            "Build tooling",
+            "Deployment / releases",
+            "Other"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-25T21:32:29Z",
+          "number": 14522,
+          "title": "fix(backend): scope SQL pipeline lookups to requested namespace",
+          "url": "https://github.com/kubeflow/pipelines/pull/14522",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T12:21:56Z",
+          "number": 14556,
+          "title": "fix(ci): repair publisher permissions and closed PR checkout",
+          "url": "https://github.com/kubeflow/pipelines/pull/14556",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T15:10:41Z",
+          "number": 14561,
+          "title": "fix(ci): evaluate gate against PR base workflows",
+          "url": "https://github.com/kubeflow/pipelines/pull/14561",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T16:46:53Z",
+          "number": 14527,
+          "title": "fix(sdk): validate inverse proxy authority before selecting credentials",
+          "url": "https://github.com/kubeflow/pipelines/pull/14527",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T16:48:19Z",
+          "number": 14408,
+          "title": "fix(frontend): enforce 2.18 artifact ownership with migration audit mode",
+          "url": "https://github.com/kubeflow/pipelines/pull/14408",
+          "areas": [
+            "Frontend",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T16:49:49Z",
+          "number": 14407,
+          "title": "fix(frontend): enforce artifact ownership through namespace proxies",
+          "url": "https://github.com/kubeflow/pipelines/pull/14407",
+          "areas": [
+            "Frontend",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T20:06:00Z",
+          "number": 14559,
+          "title": "feat(ci): add native ARM64 pipeline smoke and presubmit lane",
+          "url": "https://github.com/kubeflow/pipelines/pull/14559",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T20:07:26Z",
+          "number": 14558,
+          "title": "fix(ci): verify immutable multi-architecture image publication",
+          "url": "https://github.com/kubeflow/pipelines/pull/14558",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T22:18:09Z",
+          "number": 14362,
+          "title": "fix(frontend): persist TensorBoard signing key across UI rollouts",
+          "url": "https://github.com/kubeflow/pipelines/pull/14362",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Frontend",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-26T23:54:37Z",
+          "number": 14569,
+          "title": "feat(release): define ARM64 support and validate release images",
+          "url": "https://github.com/kubeflow/pipelines/pull/14569",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-27T00:13:16Z",
+          "number": 14435,
+          "title": "fix(backend): include container env in 2.18 cache keys",
+          "url": "https://github.com/kubeflow/pipelines/pull/14435",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T03:27:50Z",
+          "number": 14583,
+          "title": "fix(deps): make coordinated Argo updates fail safely",
+          "url": "https://github.com/kubeflow/pipelines/pull/14583",
+          "areas": [
+            "Project maintenance",
+            "Documentation",
+            "Build tooling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-2",
+      "gap": 5,
+      "offset": 0.75,
+      "prs": [
+        {
+          "mergedAt": "2026-09-28T12:14:43Z",
+          "number": 14568,
+          "title": "fix(backend): backport V1/V2 SQL namespace isolation to 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14568",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T12:14:51Z",
+          "number": 14563,
+          "title": "fix(ci): admit release PRs and approve pending fork runs",
+          "url": "https://github.com/kubeflow/pipelines/pull/14563",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T12:16:22Z",
+          "number": 14564,
+          "title": "fix(ci): preload runtime fixtures and diagnose image pull failures",
+          "url": "https://github.com/kubeflow/pipelines/pull/14564",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Backend / API",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T12:17:51Z",
+          "number": 14565,
+          "title": "fix(ci): refresh changed gate failure reasons",
+          "url": "https://github.com/kubeflow/pipelines/pull/14565",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T12:19:13Z",
+          "number": 14570,
+          "title": "fix(ci): isolate API test names and retain SDK diagnostics",
+          "url": "https://github.com/kubeflow/pipelines/pull/14570",
+          "areas": [
+            "Backend / API",
+            "Documentation",
+            "SDK",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T15:12:18Z",
+          "number": 14575,
+          "title": "feat(release): build and validate native ARM maintainer tools",
+          "url": "https://github.com/kubeflow/pipelines/pull/14575",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T15:13:57Z",
+          "number": 14428,
+          "title": "feat(backend): configure pipeline size limits and clarify rejections",
+          "url": "https://github.com/kubeflow/pipelines/pull/14428",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T15:15:36Z",
+          "number": 14430,
+          "title": "fix(backend): restore filter metadata in legacy v2 page tokens",
+          "url": "https://github.com/kubeflow/pipelines/pull/14430",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T15:17:11Z",
+          "number": 14431,
+          "title": "fix(frontend): support secure HTTP artifact URL migration",
+          "url": "https://github.com/kubeflow/pipelines/pull/14431",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T16:53:38Z",
+          "number": 14434,
+          "title": "fix: clarify multi-user RBAC migration and upload denials",
+          "url": "https://github.com/kubeflow/pipelines/pull/14434",
+          "areas": [
+            "Backend / API",
+            "Documentation",
+            "Frontend",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-28T16:59:38Z",
+          "number": 14566,
+          "title": "fix(ci): stabilize backend integration and preserve failure diagnostics",
+          "url": "https://github.com/kubeflow/pipelines/pull/14566",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-29T14:40:40Z",
+          "number": 14609,
+          "title": "perf(ci): shard PostgreSQL multi-user E2E tests",
+          "url": "https://github.com/kubeflow/pipelines/pull/14609",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-29T14:42:10Z",
+          "number": 14610,
+          "title": "fix(ci): keep ci-passed pending while checks run",
+          "url": "https://github.com/kubeflow/pipelines/pull/14610",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-29T15:44:07Z",
+          "number": 14582,
+          "title": "fix(build): restore scheduled workflow Dockerfile newline",
+          "url": "https://github.com/kubeflow/pipelines/pull/14582",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-29T15:44:11Z",
+          "number": 14608,
+          "title": "fix(ci): rebuild missing runtime image archives (2.18 backport)",
+          "url": "https://github.com/kubeflow/pipelines/pull/14608",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-29T15:45:41Z",
+          "number": 14607,
+          "title": "fix(ci): rebuild missing runtime image archives",
+          "url": "https://github.com/kubeflow/pipelines/pull/14607",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-29T17:58:13Z",
+          "number": 14614,
+          "title": "feat(manifests): retire bundled GCP inverse-proxy for 3.0",
+          "url": "https://github.com/kubeflow/pipelines/pull/14614",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases",
+            "Other",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-09-29T20:12:55Z",
+          "number": 14581,
+          "title": "ci: run release checks on merge groups",
+          "url": "https://github.com/kubeflow/pipelines/pull/14581",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-01T00:45:46Z",
+          "number": 14387,
+          "title": "fix(ci): guard against docformatter 1.7.8 regressions",
+          "url": "https://github.com/kubeflow/pipelines/pull/14387",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-01T00:47:11Z",
+          "number": 14635,
+          "title": "fix(manifests): update SeaweedFS to 4.48 and unblock Dependabot",
+          "url": "https://github.com/kubeflow/pipelines/pull/14635",
+          "areas": [
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-01T01:37:44Z",
+          "number": 14626,
+          "title": "fix(ci): preload Python 3.12 fixtures for 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14626",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-02T20:21:10Z",
+          "number": 14653,
+          "title": "test(ci): stop rejecting passing CI based on PR author",
+          "url": "https://github.com/kubeflow/pipelines/pull/14653",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-02T21:24:05Z",
+          "number": 14620,
+          "title": "fix(frontend): validate HTTP artifact bases before normalization",
+          "url": "https://github.com/kubeflow/pipelines/pull/14620",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-02T21:29:25Z",
+          "number": 14363,
+          "title": "fix(backend): secure delegated recurring-run execution",
+          "url": "https://github.com/kubeflow/pipelines/pull/14363",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-05T03:22:04Z",
+          "number": 14427,
+          "title": "feat(cache): standardize legacy cache audit mode",
+          "url": "https://github.com/kubeflow/pipelines/pull/14427",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-05T20:04:14Z",
+          "number": 14670,
+          "title": "fix(ci): require complete artifact downloads",
+          "url": "https://github.com/kubeflow/pipelines/pull/14670",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-05T20:05:36Z",
+          "number": 14673,
+          "title": "fix(ci): recover timed-out frontend image builds",
+          "url": "https://github.com/kubeflow/pipelines/pull/14673",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-05T20:33:34Z",
+          "number": 14655,
+          "title": "fix(release): consolidate remaining 2.18 backports",
+          "url": "https://github.com/kubeflow/pipelines/pull/14655",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Frontend",
+            "Deployment / releases",
+            "SDK",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-06T18:43:09Z",
+          "number": 14679,
+          "title": "fix(release): address 2.18 backport review follow-ups",
+          "url": "https://github.com/kubeflow/pipelines/pull/14679",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "SDK",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-06T19:09:29Z",
+          "number": 14672,
+          "title": "fix(backend): reconcile multi-user scheduled ticks through API",
+          "url": "https://github.com/kubeflow/pipelines/pull/14672",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-07T01:16:41Z",
+          "number": 14658,
+          "title": "feat: add self-service pipeline data export and import",
+          "url": "https://github.com/kubeflow/pipelines/pull/14658",
+          "areas": [
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-07T01:17:57Z",
+          "number": 14659,
+          "title": "feat: add self-service pipeline data export and import on 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14659",
+          "areas": [
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-07T02:00:29Z",
+          "number": 14708,
+          "title": "fix(persistence): reserve retry backoff for failed saves",
+          "url": "https://github.com/kubeflow/pipelines/pull/14708",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-07T02:01:50Z",
+          "number": 14709,
+          "title": "fix(backend): propagate run row iteration errors",
+          "url": "https://github.com/kubeflow/pipelines/pull/14709",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-07T14:23:17Z",
+          "number": 14727,
+          "title": "fix(ci): wait for native migration run state",
+          "url": "https://github.com/kubeflow/pipelines/pull/14727",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-07T18:46:45Z",
+          "number": 14728,
+          "title": "fix(backend): preserve transfer parameters and state history",
+          "url": "https://github.com/kubeflow/pipelines/pull/14728",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-07T18:48:11Z",
+          "number": 14733,
+          "title": "fix(ci): handle inaccessible contributor comment history",
+          "url": "https://github.com/kubeflow/pipelines/pull/14733",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-08T15:05:13Z",
+          "number": 14736,
+          "title": "fix(ci): guard unreported recurring run state",
+          "url": "https://github.com/kubeflow/pipelines/pull/14736",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-09T19:50:26Z",
+          "number": 14767,
+          "title": "fix(sdk): remove obsolete urllib3 pin and refresh lock",
+          "url": "https://github.com/kubeflow/pipelines/pull/14767",
+          "areas": [
+            "Other",
+            "SDK",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-09T20:33:11Z",
+          "number": 14768,
+          "title": "fix(ci): retry prebuilt API generator image pulls",
+          "url": "https://github.com/kubeflow/pipelines/pull/14768",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-09T21:09:56Z",
+          "number": 14732,
+          "title": "fix(ci): retry Go module downloads before tests",
+          "url": "https://github.com/kubeflow/pipelines/pull/14732",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-11T11:31:50Z",
+          "number": 14715,
+          "title": "fix(persistence): backport normal event queueing to 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14715",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-11T12:21:50Z",
+          "number": 14706,
+          "title": "fix(frontend): preserve artifact authorization through serving and redirects in 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14706",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-11T12:34:14Z",
+          "number": 14699,
+          "title": "test(frontend): verify existing artifact access under storage security restrictions",
+          "url": "https://github.com/kubeflow/pipelines/pull/14699",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-11T13:09:16Z",
+          "number": 14701,
+          "title": "test(release): validate live custom-role authorization",
+          "url": "https://github.com/kubeflow/pipelines/pull/14701",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-11T14:38:09Z",
+          "number": 14807,
+          "title": "fix(backend): preserve active run state before workflow phase in 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14807",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-11T14:54:42Z",
+          "number": 14698,
+          "title": "fix(release): validate scheduling transitions and preserve run lists",
+          "url": "https://github.com/kubeflow/pipelines/pull/14698",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-12T00:09:18Z",
+          "number": 14808,
+          "title": "fix(frontend): retry uploaded version discovery without reuploading [2.18]",
+          "url": "https://github.com/kubeflow/pipelines/pull/14808",
+          "areas": [
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-12T00:57:34Z",
+          "number": 14700,
+          "title": "fix(release): preserve pagination correctness and validate upgrade recovery",
+          "url": "https://github.com/kubeflow/pipelines/pull/14700",
+          "areas": [
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Frontend",
+            "SDK",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-12T12:08:26Z",
+          "number": 14806,
+          "title": "fix(backend): preserve active run state before workflow phase",
+          "url": "https://github.com/kubeflow/pipelines/pull/14806",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-12T17:07:14Z",
+          "number": 14823,
+          "title": "fix(ci): recover missing base merge associations",
+          "url": "https://github.com/kubeflow/pipelines/pull/14823",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-12T21:48:23Z",
+          "number": 14825,
+          "title": "test(cache): validate rolling upgrades from 2.17.2",
+          "url": "https://github.com/kubeflow/pipelines/pull/14825",
+          "areas": [
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-12T23:45:51Z",
+          "number": 14782,
+          "title": "fix(backend): export completed legacy root DAG metadata [2.18]",
+          "url": "https://github.com/kubeflow/pipelines/pull/14782",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-13T01:16:23Z",
+          "number": 14713,
+          "title": "fix(deps): align Dependabot ownership and remove tracked workspace exports",
+          "url": "https://github.com/kubeflow/pipelines/pull/14713",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Build tooling",
+            "Deployment / releases",
+            "Other",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-13T12:09:41Z",
+          "number": 14779,
+          "title": "fix(manifests): support bundled botocore in profile controller",
+          "url": "https://github.com/kubeflow/pipelines/pull/14779",
+          "areas": [
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-13T12:51:41Z",
+          "number": 14771,
+          "title": "fix(sdk): retire stale dependency pins and preserve kubeconfig auth",
+          "url": "https://github.com/kubeflow/pipelines/pull/14771",
+          "areas": [
+            "Documentation",
+            "Build tooling",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-13T17:41:50Z",
+          "number": 14741,
+          "title": "fix(backend): automatically adopt legacy schedules during managed upgrades",
+          "url": "https://github.com/kubeflow/pipelines/pull/14741",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Deployment / releases",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-13T20:07:06Z",
+          "number": 14776,
+          "title": "feat: inspect 2.18 ownership and validate workflow report recovery",
+          "url": "https://github.com/kubeflow/pipelines/pull/14776",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-13T20:31:19Z",
+          "number": 14861,
+          "title": "test: pin compatible MLflow 3.15.2 images",
+          "url": "https://github.com/kubeflow/pipelines/pull/14861",
+          "areas": [
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-13T22:36:19Z",
+          "number": 14857,
+          "title": "test: update 2.18 manifest pin to Istio 1.31.1 on Docker Hub",
+          "url": "https://github.com/kubeflow/pipelines/pull/14857",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T00:25:31Z",
+          "number": 14856,
+          "title": "test: retry pinned policy dependency downloads in 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14856",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T00:29:15Z",
+          "number": 14827,
+          "title": "test: bound frontend image builds and retry stalled builders in 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14827",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T04:21:51Z",
+          "number": 14867,
+          "title": "fix(backend): complete 2.18 size-limit diagnostics",
+          "url": "https://github.com/kubeflow/pipelines/pull/14867",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T04:29:34Z",
+          "number": 14866,
+          "title": "fix(frontend): standardize artifact ownership audit mode in 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14866",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T04:40:08Z",
+          "number": 14869,
+          "title": "fix(backend): safely retry schedule handoff rejections",
+          "url": "https://github.com/kubeflow/pipelines/pull/14869",
+          "areas": [
+            "Backend / API",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T05:02:57Z",
+          "number": 14870,
+          "title": "fix(frontend): retry explicitly rejected schedule handoff actions",
+          "url": "https://github.com/kubeflow/pipelines/pull/14870",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T15:12:32Z",
+          "number": 14875,
+          "title": "docs: require nonblocking database changes in agent guidance",
+          "url": "https://github.com/kubeflow/pipelines/pull/14875",
+          "areas": [
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T21:00:24Z",
+          "number": 14865,
+          "title": "fix(deps): remediate release 2.18 vulnerabilities",
+          "url": "https://github.com/kubeflow/pipelines/pull/14865",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Backend / API",
+            "Frontend",
+            "SDK",
+            "Other",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T23:30:46Z",
+          "number": 14882,
+          "title": "chore(argo): upgrade 2.18 runtime to 4.1.5 retaining 3.7 support",
+          "url": "https://github.com/kubeflow/pipelines/pull/14882",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T23:47:12Z",
+          "number": 14881,
+          "title": "chore(argo): support 4.0.13 and upgrade runtime to 4.1.5",
+          "url": "https://github.com/kubeflow/pipelines/pull/14881",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-14T23:55:43Z",
+          "number": 14858,
+          "title": "test: update CI manifest pin to Istio 1.31.1 on Docker Hub",
+          "url": "https://github.com/kubeflow/pipelines/pull/14858",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-15T00:04:26Z",
+          "number": 14868,
+          "title": "fix(backend): discover managed schedule writers automatically",
+          "url": "https://github.com/kubeflow/pipelines/pull/14868",
+          "areas": [
+            "Backend / API",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-15T00:06:12Z",
+          "number": 14845,
+          "title": "test: bound frontend image builds and recover stalled builders",
+          "url": "https://github.com/kubeflow/pipelines/pull/14845",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-15T00:12:31Z",
+          "number": 14877,
+          "title": "fix(backend): automate retention index preparation on 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14877",
+          "areas": [
+            "Documentation",
+            "Backend / API",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-15T01:17:01Z",
+          "number": 14874,
+          "title": "fix(backend): preserve JobUUID and create its index online on 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/14874",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-15T14:05:31Z",
+          "number": 14886,
+          "title": "chore(deps): coordinate Go, database images, and workflow upgrades",
+          "url": "https://github.com/kubeflow/pipelines/pull/14886",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "SDK",
+            "Deployment / releases",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-20T01:56:46Z",
+          "number": 14959,
+          "title": "fix(deps): keep protobuf updates within supported GCPC compatibility",
+          "url": "https://github.com/kubeflow/pipelines/pull/14959",
+          "areas": [
+            "Project maintenance",
+            "Build tooling",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-20T03:09:29Z",
+          "number": 14960,
+          "title": "fix(deps): preserve S3 endpoints and isolate API generator bumps",
+          "url": "https://github.com/kubeflow/pipelines/pull/14960",
+          "areas": [
+            "Project maintenance",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-20T03:10:59Z",
+          "number": 14961,
+          "title": "fix(frontend): stabilize dependency update qualification",
+          "url": "https://github.com/kubeflow/pipelines/pull/14961",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-20T03:57:27Z",
+          "number": 14962,
+          "title": "test(ci): serialize recurring cache warmup executions",
+          "url": "https://github.com/kubeflow/pipelines/pull/14962",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T02:11:33Z",
+          "number": 14980,
+          "title": "fix(frontend): keep Vitest runner and coverage updates aligned",
+          "url": "https://github.com/kubeflow/pipelines/pull/14980",
+          "areas": [
+            "Project maintenance",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T03:13:25Z",
+          "number": 14979,
+          "title": "test(frontend): support Range geometry in jsdom",
+          "url": "https://github.com/kubeflow/pipelines/pull/14979",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T03:28:20Z",
+          "number": 14914,
+          "title": "test(backend): prevent nil-pointer crashes in recurring-run cache test",
+          "url": "https://github.com/kubeflow/pipelines/pull/14914",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T03:28:47Z",
+          "number": 14978,
+          "title": "fix(ci): share the locked isort version across formatting checks",
+          "url": "https://github.com/kubeflow/pipelines/pull/14978",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Build tooling",
+            "SDK",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T12:54:43Z",
+          "number": 15010,
+          "title": "fix(ci): retain SDK client deployment failure diagnostics",
+          "url": "https://github.com/kubeflow/pipelines/pull/15010",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T18:20:02Z",
+          "number": 15006,
+          "title": "test(ci): scope workflow credentials and pin actions",
+          "url": "https://github.com/kubeflow/pipelines/pull/15006",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T18:21:22Z",
+          "number": 15022,
+          "title": "docs: require reproducer, regression proof, and PR visuals",
+          "url": "https://github.com/kubeflow/pipelines/pull/15022",
+          "areas": [
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T19:15:24Z",
+          "number": 15020,
+          "title": "chore(deps): update grpc-gateway and regenerate API clients",
+          "url": "https://github.com/kubeflow/pipelines/pull/15020",
+          "areas": [
+            "Backend / API",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T19:42:08Z",
+          "number": 15027,
+          "title": "chore(ci): keep 2.17 image releases working with read-only defaults",
+          "url": "https://github.com/kubeflow/pipelines/pull/15027",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T19:45:23Z",
+          "number": 15007,
+          "title": "fix(frontend): align server Vitest runner and coverage",
+          "url": "https://github.com/kubeflow/pipelines/pull/15007",
+          "areas": [
+            "Project maintenance",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T19:51:56Z",
+          "number": 15025,
+          "title": "fix(security): update Go and uv trust stores",
+          "url": "https://github.com/kubeflow/pipelines/pull/15025",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "SDK",
+            "Deployment / releases",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T20:12:51Z",
+          "number": 15028,
+          "title": "chore(ci): keep 2.18 image releases working with read-only defaults",
+          "url": "https://github.com/kubeflow/pipelines/pull/15028",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T20:13:11Z",
+          "number": 15030,
+          "title": "fix(ci): pass 2.17 manifest sources as separate arguments",
+          "url": "https://github.com/kubeflow/pipelines/pull/15030",
+          "areas": [
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-21T22:33:58Z",
+          "number": 15026,
+          "title": "fix(release): prepare 2.17.3 security backports",
+          "url": "https://github.com/kubeflow/pipelines/pull/15026",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Backend / API",
+            "Frontend",
+            "SDK",
+            "Deployment / releases",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T00:16:27Z",
+          "number": 15034,
+          "title": "chore(release): bump version to 2.17.3",
+          "url": "https://github.com/kubeflow/pipelines/pull/15034",
+          "areas": [
+            "Documentation",
+            "Other",
+            "Backend / API",
+            "SDK",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T01:46:16Z",
+          "number": 15036,
+          "title": "fix(release): patch 2.17.3 proxy and cache-deployer images",
+          "url": "https://github.com/kubeflow/pipelines/pull/15036",
+          "areas": [
+            "Project maintenance",
+            "Documentation",
+            "Backend / API",
+            "Other",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T12:16:23Z",
+          "number": 15040,
+          "title": "fix(frontend): prune development dependencies from 2.17.3 image",
+          "url": "https://github.com/kubeflow/pipelines/pull/15040",
+          "areas": [
+            "Project maintenance",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T13:33:13Z",
+          "number": 15041,
+          "title": "fix(ci): pin release pipeline SDK installs to checked-out commit",
+          "url": "https://github.com/kubeflow/pipelines/pull/15041",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T15:57:49Z",
+          "number": 15033,
+          "title": "chore(frontend): coordinate Node 24.15 and jsdom 30 updates",
+          "url": "https://github.com/kubeflow/pipelines/pull/15033",
+          "areas": [
+            "Project maintenance",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T15:58:02Z",
+          "number": 15032,
+          "title": "chore(deps): update Prettier and refresh formatted sources",
+          "url": "https://github.com/kubeflow/pipelines/pull/15032",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T17:19:31Z",
+          "number": 15035,
+          "title": "feat(release): automate qualified releases and image promotion with kfpr",
+          "url": "https://github.com/kubeflow/pipelines/pull/15035",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-22T20:04:38Z",
+          "number": 15044,
+          "title": "fix(frontend): defer stricter artifact ownership enforcement from 2.18 to 3.0",
+          "url": "https://github.com/kubeflow/pipelines/pull/15044",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T14:04:34Z",
+          "number": 15047,
+          "title": "fix(deps): update release 2.18 to Go 1.27.3",
+          "url": "https://github.com/kubeflow/pipelines/pull/15047",
+          "areas": [
+            "Backend / API",
+            "SDK",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T14:05:55Z",
+          "number": 15051,
+          "title": "fix(tooling): backport auxiliary dependency remediation to 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/15051",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "SDK",
+            "Deployment / releases",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T14:08:57Z",
+          "number": 15046,
+          "title": "test(release): configure custom-role schedule writer handoff",
+          "url": "https://github.com/kubeflow/pipelines/pull/15046",
+          "areas": [
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T14:17:19Z",
+          "number": 15049,
+          "title": "fix(api): wait for scheduling writer handoff in 2.18. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15049",
+          "areas": [
+            "Project maintenance",
+            "Backend / API",
+            "Documentation",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T14:19:11Z",
+          "number": 14703,
+          "title": "docs: make 2.18 upgrade requirements explicit",
+          "url": "https://github.com/kubeflow/pipelines/pull/14703",
+          "areas": [
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T14:31:07Z",
+          "number": 15060,
+          "title": "fix(frontend): update Node.js trust store release [release-2.18]",
+          "url": "https://github.com/kubeflow/pipelines/pull/15060",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T17:24:36Z",
+          "number": 15050,
+          "title": "fix(tooling): update yq and remediate auxiliary image dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/15050",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Deployment / releases",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T17:25:01Z",
+          "number": 15059,
+          "title": "fix(frontend): update Node.js trust store release",
+          "url": "https://github.com/kubeflow/pipelines/pull/15059",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T17:26:07Z",
+          "number": 15061,
+          "title": "fix(ci): scan master image digests with stable OSV identity",
+          "url": "https://github.com/kubeflow/pipelines/pull/15061",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T17:28:27Z",
+          "number": 14755,
+          "title": "test(ci): retain failures hidden by qualification reruns. Part of #14754",
+          "url": "https://github.com/kubeflow/pipelines/pull/14755",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T17:37:57Z",
+          "number": 15052,
+          "title": "fix(frontend): patch vulnerable JavaScript dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/15052",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T17:41:01Z",
+          "number": 15084,
+          "title": "feat(ci): build and scan release-2.18 branch images",
+          "url": "https://github.com/kubeflow/pipelines/pull/15084",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T19:14:04Z",
+          "number": 15085,
+          "title": "test(frontend): reject vulnerable brace-expansion release lines",
+          "url": "https://github.com/kubeflow/pipelines/pull/15085",
+          "areas": [
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T19:40:43Z",
+          "number": 14951,
+          "title": "test: migrate legacy v2 coverage to Ginkgo suites",
+          "url": "https://github.com/kubeflow/pipelines/pull/14951",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T19:50:27Z",
+          "number": 15045,
+          "title": "fix(frontend): remove mandatory artifact prefixes and restore namespace HTTP serving",
+          "url": "https://github.com/kubeflow/pipelines/pull/15045",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-23T21:13:46Z",
+          "number": 15092,
+          "title": "docs(artifacts): clarify endpoint trust and prefix lookup order",
+          "url": "https://github.com/kubeflow/pipelines/pull/15092",
+          "areas": [
+            "Deployment / releases",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-24T00:18:37Z",
+          "number": 15088,
+          "title": "fix(ci): use OSV for release-2.18 image scans",
+          "url": "https://github.com/kubeflow/pipelines/pull/15088",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-24T00:18:39Z",
+          "number": 15091,
+          "title": "fix(release): run all qualification scans with OSV in CI",
+          "url": "https://github.com/kubeflow/pipelines/pull/15091",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-24T00:22:44Z",
+          "number": 15096,
+          "title": "docs: refresh 2.18 upgrade guidance for artifact previews",
+          "url": "https://github.com/kubeflow/pipelines/pull/15096",
+          "areas": [
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-24T01:33:02Z",
+          "number": 15097,
+          "title": "test(frontend): wait for recurring-run row before handoff retry",
+          "url": "https://github.com/kubeflow/pipelines/pull/15097",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-24T03:34:34Z",
+          "number": 15108,
+          "title": "docs(ci): document stacked PR provenance recovery",
+          "url": "https://github.com/kubeflow/pipelines/pull/15108",
+          "areas": [
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-24T14:13:52Z",
+          "number": 15090,
+          "title": "ci: replace legacy integration gate with API coverage",
+          "url": "https://github.com/kubeflow/pipelines/pull/15090",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-24T15:05:03Z",
+          "number": 15093,
+          "title": "ci: retire legacy v2 integration workflow",
+          "url": "https://github.com/kubeflow/pipelines/pull/15093",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T02:38:50Z",
+          "number": 15112,
+          "title": "fix(deps): update and group TypeScript ESLint packages",
+          "url": "https://github.com/kubeflow/pipelines/pull/15112",
+          "areas": [
+            "Project maintenance",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T04:04:06Z",
+          "number": 15115,
+          "title": "chore(deps): coordinate Argo Workflows v4.1.6 upgrade",
+          "url": "https://github.com/kubeflow/pipelines/pull/15115",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Backend / API",
+            "Deployment / releases",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T04:06:30Z",
+          "number": 15113,
+          "title": "test: remove retired legacy v2 integration harness. Fixes #14950",
+          "url": "https://github.com/kubeflow/pipelines/pull/15113",
+          "areas": [
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T04:10:05Z",
+          "number": 15100,
+          "title": "fix(deps): patch release 2.18 visualization and writer dependencies",
+          "url": "https://github.com/kubeflow/pipelines/pull/15100",
+          "areas": [
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T14:33:17Z",
+          "number": 15098,
+          "title": "test: reduce API CI setup and cache-test overhead",
+          "url": "https://github.com/kubeflow/pipelines/pull/15098",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T14:34:35Z",
+          "number": 15101,
+          "title": "fix(release): preserve reviewed notes and unify changelog generation",
+          "url": "https://github.com/kubeflow/pipelines/pull/15101",
+          "areas": [
+            "Documentation",
+            "Project maintenance",
+            "CI",
+            "Other",
+            "SDK",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T14:35:06Z",
+          "number": 15058,
+          "title": "fix(frontend): replace MinIO JS with portable artifact reads. Fixes #15055",
+          "url": "https://github.com/kubeflow/pipelines/pull/15058",
+          "areas": [
+            "Frontend",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T14:35:19Z",
+          "number": 15102,
+          "title": "fix: refresh the release 2.18 inverse-proxy runtime",
+          "url": "https://github.com/kubeflow/pipelines/pull/15102",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Other"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T14:36:16Z",
+          "number": 15116,
+          "title": "fix(frontend): migrate log viewer to react-virtualized 10",
+          "url": "https://github.com/kubeflow/pipelines/pull/15116",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T15:38:52Z",
+          "number": 15149,
+          "title": "test: pin release 2.18 E2E SDK installs to the checkout commit",
+          "url": "https://github.com/kubeflow/pipelines/pull/15149",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-25T18:52:43Z",
+          "number": 15117,
+          "title": "fix(frontend): patch release 2.18 JavaScript advisories",
+          "url": "https://github.com/kubeflow/pipelines/pull/15117",
+          "areas": [
+            "Frontend",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T19:43:03Z",
+          "number": 15171,
+          "title": "test: validate third-party image upgrades against the base revision. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15171",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T20:06:55Z",
+          "number": 15152,
+          "title": "fix(viewer): replace obsolete TensorBoard images in 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15152",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Backend / API",
+            "Documentation",
+            "Frontend",
+            "Build tooling",
+            "Deployment / releases",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T20:27:22Z",
+          "number": 15157,
+          "title": "fix(cache): pin a package-inventoried helper image for 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15157",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Deployment / releases",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T20:33:39Z",
+          "number": 15154,
+          "title": "fix(deployment): upgrade 2.18 third-party runtime images. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15154",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Deployment / releases",
+            "Build tooling",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T21:00:40Z",
+          "number": 15158,
+          "title": "fix(backend): preserve kubectl module version metadata. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15158",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T21:14:15Z",
+          "number": 15151,
+          "title": "fix(deployment): patch PostgreSQL images for 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15151",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T21:26:25Z",
+          "number": 15153,
+          "title": "fix(backend): patch 2.18 Python runtime image dependencies. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15153",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Build tooling",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T21:32:58Z",
+          "number": 15155,
+          "title": "test(frontend): patch vulnerable JavaScript test dependencies in 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15155",
+          "areas": [
+            "Documentation",
+            "Frontend",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-26T21:38:27Z",
+          "number": 15156,
+          "title": "fix: patch 2.18 Python source dependencies. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15156",
+          "areas": [
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "SDK",
+            "Samples / components"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T01:24:30Z",
+          "number": 15109,
+          "title": "fix: retain third-party alerts and gate release images. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15109",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T01:24:53Z",
+          "number": 15172,
+          "title": "fix(deployment): upgrade SeaweedFS and cert-manager for 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15172",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T01:27:44Z",
+          "number": 15170,
+          "title": "fix: schedule dependency updates for release 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15170",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T01:31:37Z",
+          "number": 15165,
+          "title": "test: patch Istio prerequisites for 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15165",
+          "areas": [
+            "Project maintenance",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T01:32:49Z",
+          "number": 15166,
+          "title": "fix(deployment): patch remaining 2.18 runtime controllers. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15166",
+          "areas": [
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T01:34:25Z",
+          "number": 15167,
+          "title": "fix(frontend): remove legacy Google auth crypto dependencies in 2.18. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15167",
+          "areas": [
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T15:06:08Z",
+          "number": 15215,
+          "title": "fix(backend): update 2.18 Go dependencies without client drift. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15215",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Backend / API",
+            "Tests",
+            "Build tooling"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T15:14:19Z",
+          "number": 15216,
+          "title": "fix(security): group image findings into stable summary alerts. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15216",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T18:06:35Z",
+          "number": 15217,
+          "title": "chore(release): prepare 2.18.0. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15217",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Other",
+            "Backend / API",
+            "Frontend",
+            "SDK",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T19:26:05Z",
+          "number": 15218,
+          "title": "fix: preserve release notes and dependency pins in kfpr. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15218",
+          "areas": [
+            "CI",
+            "Deployment / releases",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T20:40:51Z",
+          "number": 15225,
+          "title": "fix: patch qs and JOSE denial-of-service findings in 2.18. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15225",
+          "areas": [
+            "Backend / API",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T20:44:12Z",
+          "number": 15226,
+          "title": "fix: harden 2.18 Python development dependencies. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15226",
+          "areas": [
+            "Other",
+            "SDK",
+            "Tests"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T21:22:54Z",
+          "number": 15227,
+          "title": "fix: update 2.18 Istio and metacontroller images. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15227",
+          "areas": [
+            "Project maintenance",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T21:34:23Z",
+          "number": 15229,
+          "title": "fix(sdk): raise generated client dependency floors in 2.18. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15229",
+          "areas": [
+            "CI",
+            "Backend / API",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T21:48:21Z",
+          "number": 15228,
+          "title": "fix(sdk): restore Python 3.9 support in 2.18. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15228",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T22:01:37Z",
+          "number": 15231,
+          "title": "fix(release): support exact-release security approvals. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15231",
+          "areas": [
+            "Deployment / releases",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T22:38:22Z",
+          "number": 15230,
+          "title": "fix(sdk): avoid LibCST source builds in 2.18 development installs",
+          "url": "https://github.com/kubeflow/pipelines/pull/15230",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-27T22:52:31Z",
+          "number": 15232,
+          "title": "docs: correct 2.18 Python compatibility guidance. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15232",
+          "areas": [
+            "Documentation",
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-28T00:57:51Z",
+          "number": 15235,
+          "title": "fix(ci): recover pending aggregates after release merges. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15235",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-28T04:36:07Z",
+          "number": 15236,
+          "title": "docs(release): record published 2.18 history on master",
+          "url": "https://github.com/kubeflow/pipelines/pull/15236",
+          "areas": [
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-28T04:36:38Z",
+          "number": 15237,
+          "title": "docs: simplify the 2.18 upgrade guide. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15237",
+          "areas": [
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6-0",
+      "gap": 6,
+      "offset": 0.25,
+      "prs": [
+        {
+          "mergedAt": "2026-10-29T19:05:40Z",
+          "number": 15254,
+          "title": "fix(sdk): backport ADC credential-selection fix to release-2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/15254",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-29T19:21:12Z",
+          "number": 15259,
+          "title": "fix(sdk): prevent local condition output from executing on host",
+          "url": "https://github.com/kubeflow/pipelines/pull/15259",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-29T20:51:28Z",
+          "number": 15260,
+          "title": "fix(sdk): backport safe local condition evaluation to 2.18",
+          "url": "https://github.com/kubeflow/pipelines/pull/15260",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-30T00:15:48Z",
+          "number": 15262,
+          "title": "fix(sdk): prefer explicit credentials over automatic ADC",
+          "url": "https://github.com/kubeflow/pipelines/pull/15262",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-30T00:15:53Z",
+          "number": 15263,
+          "title": "fix(sdk): preserve explicit credential-provider precedence on master",
+          "url": "https://github.com/kubeflow/pipelines/pull/15263",
+          "areas": [
+            "SDK"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-31T01:52:00Z",
+          "number": 15274,
+          "title": "chore(ci): prepare default branch migration to main",
+          "url": "https://github.com/kubeflow/pipelines/pull/15274",
+          "areas": [
+            "CI",
+            "Project maintenance",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-31T14:00:32Z",
+          "number": 15281,
+          "title": "fix(deps): unblock release Python dependency updates. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15281",
+          "areas": [
+            "Project maintenance",
+            "Backend / API"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-31T20:12:13Z",
+          "number": 15283,
+          "title": "fix(deps): isolate release docs dependency updates. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15283",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Other",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-10-31T20:35:18Z",
+          "number": 15296,
+          "title": "fix(deps): freeze MLMD in the 2.18 inventory. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15296",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T02:25:15Z",
+          "number": 15295,
+          "title": "fix(deps): freeze release 2.18 MLMD updates. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15295",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T03:04:38Z",
+          "number": 15339,
+          "title": "fix(deps): use compatible release updater interpreters. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15339",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T12:58:13Z",
+          "number": 15343,
+          "title": "fix(deps): recognize release updater Python selectors. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15343",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T21:23:04Z",
+          "number": 15303,
+          "title": "perf(ci): shard native and multi-user API tests across independent runners",
+          "url": "https://github.com/kubeflow/pipelines/pull/15303",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T21:23:28Z",
+          "number": 15357,
+          "title": "fix(ci): complete cache fixture image exports before loading",
+          "url": "https://github.com/kubeflow/pipelines/pull/15357",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T21:23:50Z",
+          "number": 15355,
+          "title": "fix(deps): bound release update jobs and remove default holds. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15355",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T21:24:13Z",
+          "number": 15298,
+          "title": "fix(ci): use preloaded MySQL tags in test deployments",
+          "url": "https://github.com/kubeflow/pipelines/pull/15298",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T21:24:33Z",
+          "number": 15291,
+          "title": "perf(ci): share revision-bound image builds across workflows",
+          "url": "https://github.com/kubeflow/pipelines/pull/15291",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T21:25:02Z",
+          "number": 15139,
+          "title": "fix(ci): defer API version port-forwarding until fixture rollout",
+          "url": "https://github.com/kubeflow/pipelines/pull/15139",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-11-01T21:31:41Z",
+          "number": 15356,
+          "title": "fix(deps): align release pip inventory with bounded jobs. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15356",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-01T21:33:23Z",
+          "number": 15282,
+          "title": "perf(ci): cache dependencies and parallelize frontend validation",
+          "url": "https://github.com/kubeflow/pipelines/pull/15282",
+          "areas": [
+            "Project maintenance",
+            "CI",
+            "Documentation",
+            "Frontend"
+          ]
+        },
+        {
+          "mergedAt": "2026-11-02T01:02:30Z",
+          "number": 15380,
+          "title": "perf(ci): reduce GitHub API quota usage",
+          "url": "https://github.com/kubeflow/pipelines/pull/15380",
+          "areas": []
+        }
+      ]
+    },
+    {
+      "id": "6-1",
+      "gap": 6,
+      "offset": 0.5,
+      "prs": [
+        {
+          "mergedAt": "2026-11-02T18:22:43Z",
+          "number": 15239,
+          "title": "feat(release): add reviewed release inventories. Part of #14409",
+          "url": "https://github.com/kubeflow/pipelines/pull/15239",
+          "areas": [
+            "CI",
+            "Documentation",
+            "Deployment / releases"
+          ]
+        },
+        {
+          "mergedAt": "2026-11-02T18:26:10Z",
+          "number": 15114,
+          "title": "docs: expose PR description requirements in template",
+          "url": "https://github.com/kubeflow/pipelines/pull/15114",
+          "areas": [
+            "Documentation",
+            "Project maintenance"
+          ]
+        },
+        {
+          "mergedAt": "2026-11-02T18:26:32Z",
+          "number": 15150,
+          "title": "docs: add a release editorial example and publication checklist. Part of #14421",
+          "url": "https://github.com/kubeflow/pipelines/pull/15150",
+          "areas": [
+            "Deployment / releases",
+            "Documentation"
+          ]
+        },
+        {
+          "mergedAt": "2026-11-03T17:52:36Z",
+          "number": 15382,
+          "title": "fix(ci): avoid redundant ci-passed label writes",
+          "url": "https://github.com/kubeflow/pipelines/pull/15382",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-03T18:15:38Z",
+          "number": 15289,
+          "title": "fix(visualization)!: require run creation for Python generation",
+          "url": "https://github.com/kubeflow/pipelines/pull/15289",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-03T18:21:53Z",
+          "number": 15290,
+          "title": "fix(frontend): reject foreign canonical artifact namespaces",
+          "url": "https://github.com/kubeflow/pipelines/pull/15290",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-03T18:34:25Z",
+          "number": 15286,
+          "title": "fix(apiserver): reject missing visualization requests",
+          "url": "https://github.com/kubeflow/pipelines/pull/15286",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-03T18:46:18Z",
+          "number": 15285,
+          "title": "fix(frontend): fail closed when artifact ownership lookup fails",
+          "url": "https://github.com/kubeflow/pipelines/pull/15285",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-03T18:55:18Z",
+          "number": 15284,
+          "title": "fix(frontend): deny shared MLMD ingress in multi-user mode",
+          "url": "https://github.com/kubeflow/pipelines/pull/15284",
+          "areas": []
+        },
+        {
+          "mergedAt": "2026-11-03T19:08:00Z",
+          "number": 15287,
+          "title": "fix(visualization)!: disable Python generation by default",
+          "url": "https://github.com/kubeflow/pipelines/pull/15287",
+          "areas": []
+        }
+      ]
+    }
+  ]
+}
