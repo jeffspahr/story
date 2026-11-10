@@ -329,7 +329,7 @@ class: blue
 ---
 ---
 
-# Security advisories in 2.18
+# Security Advisories and 2.18 Release Lead
 
 <MilestoneTimeline :step="7" />
 
