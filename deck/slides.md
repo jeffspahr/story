@@ -474,6 +474,8 @@ class: blue
 <div class="credits" style="margin-top:36px">
   <div><b>Alex Perlman</b><br><a href="https://github.com/droctothorpe" target="_blank" rel="noopener noreferrer">@droctothorpe</a></div>
   <div><b>Mike Zazula</b><br><a href="https://github.com/zazulam" target="_blank" rel="noopener noreferrer">@zazulam</a></div>
+  <div><b>Matt Prahl</b><br><a href="https://github.com/mprahl" target="_blank" rel="noopener noreferrer">@mprahl</a></div>
+  <div><b>Humair Khan</b><br><a href="https://github.com/HumairAK" target="_blank" rel="noopener noreferrer">@HumairAK</a></div>
 </div>
 
 ---
