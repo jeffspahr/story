@@ -194,25 +194,16 @@ class: comic-slide
 ---
 ---
 
-# I couldn't rely on my colleague for every review
+# I built a screenshot comparison tool
 
-<p class="lead">I needed a way to check the UI myself.</p>
+<p class="lead">I couldn't rely on my colleague for every review.<br>I needed a way to check the UI myself.</p>
 
-<div class="card" style="margin-top:20px;min-height:0"><b>I built a screenshot comparison tool</b><p>Take screenshots before and after a change, then highlight the pixel differences.</p></div>
+<div class="three"><div class="card"><b>Before</b><p>Capture the existing UI.</p></div><div class="card"><b>After</b><p>Capture the same views with my changes.</p></div><div class="card"><b>Compare</b><p>Highlight pixel differences.</p></div></div>
 
-<!-- I could not move at the speed I needed to if I depended on another person to validate every change. I built tooling to compare the UI before and after and make visual differences easier to investigate. -->
-
----
----
-
-# I added comparisons to my PRs
-
-<div class="three"><div class="card"><b>Before</b><p>Take screenshots of the existing UI.</p></div><div class="card"><b>After</b><p>Take the same screenshots with my changes.</p></div><div class="card"><b>Compare</b><p>Look at the differences and share them with reviewers.</p></div></div>
-
-<p class="small muted">Maintainers could see what had changed.</p>
+<p class="small">I used the comparisons to check my work, then added them to my PRs so maintainers could see what changed.</p>
 <p class="source">PR <a href="https://github.com/kubeflow/pipelines/pull/12754" target="_blank" rel="noopener noreferrer">#12754</a> · visual evidence · PR <a href="https://github.com/kubeflow/pipelines/pull/12784" target="_blank" rel="noopener noreferrer">#12784</a> · comparison tool</p>
 
-<!-- The Vite PR included visual comparisons for eight views before the separate UI smoke-test tool PR merged. PR 12784 describes automated Playwright captures, side-by-side images and pixel difference percentages. Include a real artifact on this slide later, not a fabricated example. Sharing the comparisons helped maintainers gain confidence. -->
+<!-- I could not depend on my colleague to validate every change. This added another layer of validation alongside tests and expert review, not a replacement for either. The Vite PR included visual comparisons for eight views before the separate UI smoke-test tool PR merged. PR 12784 describes automated Playwright captures, side-by-side images and pixel difference percentages. The next slide shows an actual comparison. -->
 
 ---
 ---
