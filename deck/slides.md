@@ -425,6 +425,18 @@ class: blue
 
 # Thank you
 
+<p class="lead">Kubeflow Pipelines maintainers</p>
+
+<div class="credits" style="margin-top:36px">
+  <div><b>Alex Perlman</b><br><a href="https://github.com/droctothorpe" target="_blank" rel="noopener noreferrer">@droctothorpe</a></div>
+  <div><b>Mike Zazula</b><br><a href="https://github.com/zazulam" target="_blank" rel="noopener noreferrer">@zazulam</a></div>
+</div>
+
+---
+---
+
+# Thank you
+
 <div class="credits"><div><b>Manaswini Das · @manaswinidas</b><br><span class="small muted">Planning, frontend tests, and reliability</span></div><div><b>Premved Dhote · @PR3MM</b><br><span class="small muted">React 19 upgrade</span></div><div>@kanishka-commits<br>@jsonmp-k8</div><div>@dpanshug<br>@rishi-jat</div></div>
 
 <p class="small" style="margin-top:22px">And the colleagues, maintainers, reviewers, and contributors who helped along the way.</p>
