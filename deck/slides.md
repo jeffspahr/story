@@ -194,16 +194,7 @@ class: comic-slide
 ---
 ---
 
-# I asked a UI developer to review my changes
-
-<p class="lead">His thumbs-up gave me and the maintainers confidence to start merging.</p>
-
-<!-- I pulled in an internal UI developer to review some changes. His approval made me and the maintainers confident enough to start merging. Speaker to add the colleague's name and specific example if he wants to credit him publicly. -->
-
----
----
-
-# I couldn't rely on him for every review
+# I couldn't rely on my colleague for every review
 
 <p class="lead">I needed a way to check the UI myself.</p>
 
