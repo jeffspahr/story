@@ -275,9 +275,9 @@ class: blue
 
 # I became a reviewer<br>as much as a contributor.
 
-<p class="lead">The work started in the frontend. It grew into CI and, eventually, the whole project.</p>
+<p class="lead">As others picked up the migration work, I spent more time reviewing their PRs.</p>
 
-<!-- I became a frontend approver, then later a maintainer for the entire project. By the React 19 upgrade, I was reviewing and approving someone else's work. -->
+<!-- Focus here on reviewing other contributors' migration PRs. The next slide introduces frontend approver responsibility; CI and project-wide work come later. -->
 
 ---
 ---
